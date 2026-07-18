@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="HVE-HLD" version="30.3.14">
+  <diagram name="HVE HLD" id="hld">
+    <mxGraphModel dx="2600" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2600" pageHeight="720" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+<mxCell id="t40_15" value="HVE — Hallucination Verification Engine" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1f3a5f;" vertex="1" parent="1"><mxGeometry x="40" y="15" width="2520" height="45" as="geometry" /></mxCell>
+<mxCell id="t40_60" value="Validate an answer against its references · per-claim verdicts with confidence" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=2;fontColor=#1f3a5f;" vertex="1" parent="1"><mxGeometry x="40" y="60" width="2520" height="22" as="geometry" /></mxCell>
+<mxCell id="t40_100" value="INPUT" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#1f3a5f;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="400" height="22" as="geometry" /></mxCell>
+<mxCell id="b40_130" value="Feedback / Question
+What was asked" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#1f3a5f;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="40" y="130" width="400" height="60" as="geometry" /></mxCell>
+<mxCell id="b40_200" value="Answer
+The response to verify" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#1f3a5f;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="40" y="200" width="400" height="60" as="geometry" /></mxCell>
+<mxCell id="b40_270" value="References
+PDF · web page · article · paper
+structured record
+(whatever the user provides)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#1f3a5f;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="40" y="270" width="400" height="100" as="geometry" /></mxCell>
+<mxCell id="t490_100" value="PIPELINE" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#1f3a5f;" vertex="1" parent="1"><mxGeometry x="490" y="100" width="1100" height="22" as="geometry" /></mxCell>
+<mxCell id="c490_130" value="1. EXTRACT CLAIMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b58a2c;fontSize=11;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="490" y="130" width="1100" height="75" as="geometry" /></mxCell>
+<mxCell id="b510_165" value="Split answer into
+atomic factual claims" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="510" y="165" width="320" height="30" as="geometry" /></mxCell>
+<mxCell id="b840_165" value="Coreference resolution
+Decontextualize" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="840" y="165" width="280" height="30" as="geometry" /></mxCell>
+<mxCell id="b1130_165" value="→ List of claims" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=9;align=left;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1130" y="165" width="220" height="30" as="geometry" /></mxCell>
+<mxCell id="c490_215" value="2. MATCH REFERENCES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b58a2c;fontSize=11;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="490" y="215" width="1100" height="85" as="geometry" /></mxCell>
+<mxCell id="b510_250" value="For each claim,
+find the most relevant
+spans in the references" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="510" y="250" width="320" height="40" as="geometry" /></mxCell>
+<mxCell id="b840_250" value="Lexical + semantic search
+Reciprocal Rank Fusion (RRF)
+query reformulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="840" y="250" width="280" height="40" as="geometry" /></mxCell>
+<mxCell id="b1130_250" value="→ (claim, reference)
+pairs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=9;align=left;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1130" y="250" width="220" height="40" as="geometry" /></mxCell>
+<mxCell id="c490_310" value="3. VERIFY EACH CLAIM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="490" y="310" width="1100" height="95" as="geometry" /></mxCell>
+<mxCell id="b510_345" value="For each (claim, reference):
+does the reference support,
+contradict, or fail to cover the claim?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="510" y="345" width="320" height="50" as="geometry" /></mxCell>
+<mxCell id="b840_345" value="NLI pre-filter (fast · cheap)
+↓
+LLM judge (frontier · rubric)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="840" y="345" width="280" height="50" as="geometry" /></mxCell>
+<mxCell id="b1130_345" value="→ verdict per claim
++ confidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d79b00;fontSize=9;align=left;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1130" y="345" width="220" height="50" as="geometry" /></mxCell>
+<mxCell id="c490_415" value="4. AGGREGATE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#b58a2c;fontSize=11;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="490" y="415" width="1100" height="70" as="geometry" /></mxCell>
+<mxCell id="b510_450" value="Combine per-claim verdicts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="510" y="450" width="320" height="25" as="geometry" /></mxCell>
+<mxCell id="b840_450" value="Majority / weighted by trust" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="840" y="450" width="280" height="25" as="geometry" /></mxCell>
+<mxCell id="b1130_450" value="→ overall verdict" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;fontSize=9;align=left;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1130" y="450" width="220" height="25" as="geometry" /></mxCell>
+<mxCell id="ab40_130_c490_130" value="" style="endArrow=classic;html=1;strokeColor=#1f3a5f;strokeWidth=3;" edge="1" parent="1" source="b40_130" target="c490_130"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="ab40_200_c490_310" value="" style="endArrow=classic;html=1;strokeColor=#1f3a5f;strokeWidth=3;" edge="1" parent="1" source="b40_200" target="c490_310"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="ab40_270_c490_215" value="" style="endArrow=classic;html=1;strokeColor=#1f3a5f;strokeWidth=3;" edge="1" parent="1" source="b40_270" target="c490_215"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="ac490_130_c490_215" value="" style="endArrow=classic;html=1;strokeColor=#1f3a5f;strokeWidth=3;" edge="1" parent="1" source="c490_130" target="c490_215"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="ac490_215_c490_310" value="" style="endArrow=classic;html=1;strokeColor=#1f3a5f;strokeWidth=3;" edge="1" parent="1" source="c490_215" target="c490_310"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="ac490_310_c490_415" value="" style="endArrow=classic;html=1;strokeColor=#1f3a5f;strokeWidth=3;" edge="1" parent="1" source="c490_310" target="c490_415"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="ac490_415_c1670_415" value="verdict" style="endArrow=classic;html=1;strokeColor=#1f3a5f;strokeWidth=3;labelBackgroundColor=#ffffff;fontSize=10;" edge="1" parent="1" source="c490_415" target="c1670_415"><mxGeometry relative="1" as="geometry" /></mxCell>
+<mxCell id="t1670_100" value="OUTPUT" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#1f3a5f;" vertex="1" parent="1"><mxGeometry x="1670" y="100" width="400" height="22" as="geometry" /></mxCell>
+<mxCell id="c1670_130" value="VERIFICATION REPORT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#82b366;strokeColor=#1f3a5f;fontSize=11;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="1670" y="130" width="400" height="355" as="geometry" /></mxCell>
+<mxCell id="b1690_175" value="Per-claim verdict" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1f3a5f;fontSize=10;align=left;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1690" y="175" width="360" height="30" as="geometry" /></mxCell>
+<mxCell id="b1690_210" value="✓ supported    ✗ contradicted    ? not enough info" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=10;align=left;" vertex="1" parent="1"><mxGeometry x="1690" y="210" width="360" height="40" as="geometry" /></mxCell>
+<mxCell id="b1690_260" value="Confidence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1f3a5f;fontSize=10;align=left;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1690" y="260" width="360" height="30" as="geometry" /></mxCell>
+<mxCell id="b1690_295" value="0.0 — 1.0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=10;align=center;" vertex="1" parent="1"><mxGeometry x="1690" y="295" width="360" height="25" as="geometry" /></mxCell>
+<mxCell id="b1690_330" value="Evidence pointer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1f3a5f;fontSize=10;align=left;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1690" y="330" width="360" height="30" as="geometry" /></mxCell>
+<mxCell id="b1690_365" value="which reference, which span" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=10;align=center;" vertex="1" parent="1"><mxGeometry x="1690" y="365" width="360" height="25" as="geometry" /></mxCell>
+<mxCell id="b1690_400" value="Overall verdict" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1f3a5f;fontSize=10;align=left;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1690" y="400" width="360" height="30" as="geometry" /></mxCell>
+<mxCell id="b1690_435" value="reliable / unreliable / mixed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=10;align=center;" vertex="1" parent="1"><mxGeometry x="1690" y="435" width="360" height="25" as="geometry" /></mxCell>
+<mxCell id="b1690_470" value="JSON · Markdown" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=9;align=center;" vertex="1" parent="1"><mxGeometry x="1690" y="470" width="360" height="13" as="geometry" /></mxCell>
+<mxCell id="t40_500" value="TECH STACK  ·  actual tools / models per stage" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#1f3a5f;" vertex="1" parent="1"><mxGeometry x="40" y="500" width="2520" height="22" as="geometry" /></mxCell>
+<mxCell id="c40_530" value="1. CLAIM EXTRACTION" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="40" y="530" width="480" height="165" as="geometry" /></mxCell>
+<mxCell id="b50_565" value="LLM:  GPT-4o  ·  Claude Sonnet  ·  Gemini 1.5" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="50" y="565" width="460" height="18" as="geometry" /></mxCell>
+<mxCell id="b50_587" value="Prompt:  atomic claim decomposition + coref" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="50" y="587" width="460" height="18" as="geometry" /></mxCell>
+<mxCell id="b50_609" value="Framework:  LangChain  ·  LlamaIndex  ·  raw" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="50" y="609" width="460" height="18" as="geometry" /></mxCell>
+<mxCell id="b50_631" value="Alt:  fine-tuned T5 / Flan-T5 for atomicity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="50" y="631" width="460" height="18" as="geometry" /></mxCell>
+<mxCell id="b50_653" value="Output:  JSON list of {text, span, type}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="50" y="653" width="460" height="18" as="geometry" /></mxCell>
+<mxCell id="c540_530" value="2. REFERENCE MATCHING (HYBRID RETRIEVAL)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="540" y="530" width="540" height="165" as="geometry" /></mxCell>
+<mxCell id="b550_565" value="Lexical:  BM25 (rank_bm25, Pyserini)  ·  Elasticsearch  ·  OpenSearch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="550" y="565" width="520" height="18" as="geometry" /></mxCell>
+<mxCell id="b550_587" value="Chunking:  sentence / paragraph / semantic (chonkie, langchain-text-splitters)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="550" y="587" width="520" height="18" as="geometry" /></mxCell>
+<mxCell id="b550_609" value="Embeddings:  text-embedding-3-small  ·  voyage-3  ·  BGE-large  ·  E5-mistral" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="550" y="609" width="520" height="18" as="geometry" /></mxCell>
+<mxCell id="b550_631" value="Vector store:  FAISS  ·  Pinecone  ·  Weaviate  ·  pgvector  ·  Qdrant" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="550" y="631" width="520" height="18" as="geometry" /></mxCell>
+<mxCell id="b550_653" value="Fusion:  Reciprocal Rank Fusion (RRF)  ·  cross-encoder rerank (Cohere Rerank)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="550" y="653" width="520" height="18" as="geometry" /></mxCell>
+<mxCell id="c1100_530" value="3. VERIFICATION (NLI PRE-FILTER + LLM JUDGE)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="1100" y="530" width="540" height="165" as="geometry" /></mxCell>
+<mxCell id="b1110_565" value="NLI:  DeBERTa-v3-large  ·  MiniCheck  ·  Patronus Lynx  ·  TRUE (T5)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="1110" y="565" width="520" height="18" as="geometry" /></mxCell>
+<mxCell id="b1110_587" value="LLM judges:  GPT-4o  ·  Claude Opus 4  ·  Gemini 2.0  ·  Llama 3.1 405B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="1110" y="587" width="520" height="18" as="geometry" /></mxCell>
+<mxCell id="b1110_609" value="Prompts:  rubric-based, span-citation required, self-critique" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="1110" y="609" width="520" height="18" as="geometry" /></mxCell>
+<mxCell id="b1110_631" value="Guardrails:  guardrails-ai  ·  Pydantic structured output  ·  JSON mode" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="1110" y="631" width="520" height="18" as="geometry" /></mxCell>
+<mxCell id="b1110_653" value="Output:  {label, confidence, evidence_span, reasoning}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="1110" y="653" width="520" height="18" as="geometry" /></mxCell>
+<mxCell id="c1660_530" value="4. AGGREGATION + STACK" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1;align=center;verticalAlign=top;" vertex="1" parent="1"><mxGeometry x="1660" y="530" width="410" height="165" as="geometry" /></mxCell>
+<mxCell id="b1670_565" value="Aggregation:  majority / weighted by source trust" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="1670" y="565" width="390" height="18" as="geometry" /></mxCell>
+<mxCell id="b1670_587" value="Orchestration:  LangGraph  ·  CrewAI  ·  AutoGen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="1670" y="587" width="390" height="18" as="geometry" /></mxCell>
+<mxCell id="b1670_609" value="Eval:  RAGAS  ·  DeepEval  ·  custom gold set" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="1670" y="609" width="390" height="18" as="geometry" /></mxCell>
+<mxCell id="b1670_631" value="Observability:  LangSmith  ·  Phoenix  ·  OpenTelemetry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="1670" y="631" width="390" height="18" as="geometry" /></mxCell>
+<mxCell id="b1670_653" value="Serving:  FastAPI  ·  vLLM (open-source judges)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f5f0;strokeColor=#666666;fontSize=9;align=left;" vertex="1" parent="1"><mxGeometry x="1670" y="653" width="390" height="18" as="geometry" /></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

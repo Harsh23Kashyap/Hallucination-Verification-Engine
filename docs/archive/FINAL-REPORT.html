@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HVE — Domain-Agnostic Hallucination Verification Framework</title>
+<style>
+@page {
+  size: A4;
+  margin: 1.6cm 1.5cm 1.8cm 1.5cm;
+  @top-left   { content: "HVE — Domain-Agnostic Hallucination Verification Framework"; font-family: 'Helvetica', sans-serif; font-size: 8pt; color: #888; }
+  @top-right  { content: "FINAL REPORT · 2026-07-18"; font-family: 'Helvetica', sans-serif; font-size: 8pt; color: #888; }
+  @bottom-right { content: "Page " counter(page); font-family: 'Helvetica', sans-serif; font-size: 8pt; color: #888; }
+}
+@page :first { margin: 0; @top-left { content: ""; } @top-right { content: ""; } @bottom-right { content: ""; } }
+
+* { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+html, body {
+  margin: 0; padding: 0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-size: 9.8pt;
+  line-height: 1.42;
+  color: #1a1a1a;
+  background: #fff;
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14pt;
+  color: #1f3a5f;
+  border-bottom: 1pt solid #1f3a5f;
+  padding-bottom: 3pt;
+  margin: 14pt 0 7pt 0;
+  page-break-after: avoid;
+}
+h1.part-title {
+  font-size: 16pt;
+  background: #f3f1ea;
+  border-left: 4pt solid #1f3a5f;
+  border-bottom: none;
+  padding: 9pt 11pt;
+  margin: 0 0 9pt 0;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  page-break-before: always;
+}
+h2 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 11.5pt;
+  color: #1f3a5f;
+  margin: 11pt 0 5pt 0;
+  page-break-after: avoid;
+}
+h3 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 10pt;
+  color: #2d4f7c;
+  margin: 9pt 0 4pt 0;
+  page-break-after: avoid;
+  font-weight: 600;
+}
+p { margin: 0 0 5pt 0; text-align: justify; hyphens: auto; }
+strong { color: #1f3a5f; }
+em { color: #333; }
+ul, ol { margin: 0 0 6pt 0; padding-left: 18pt; }
+li { margin-bottom: 1.5pt; }
+code { font-family: 'Menlo', 'Consolas', monospace; font-size: 8.5pt; color: #1f3a5f; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 7pt 0 8pt 0;
+  font-size: 8.5pt;
+  page-break-inside: avoid;
+}
+th, td {
+  border: 0.4pt solid #c8c8c8;
+  padding: 3.5pt 5pt;
+  vertical-align: top;
+  text-align: left;
+  line-height: 1.3;
+}
+th {
+  background: #1f3a5f;
+  color: #fff;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 600;
+  font-size: 8.5pt;
+  letter-spacing: 0.02em;
+}
+tbody tr:nth-child(even) { background: #f7f5f0; }
+td.center { text-align: center; }
+
+pre {
+  font-family: 'Menlo', 'Consolas', monospace;
+  font-size: 7.5pt;
+  line-height: 1.28;
+  background: #f7f5f0;
+  border-left: 2.5pt solid #1f3a5f;
+  padding: 7pt 9pt;
+  margin: 6pt 0 8pt 0;
+  overflow-x: auto;
+  white-space: pre;
+  page-break-inside: avoid;
+}
+
+/* SVG diagrams */
+.diagram {
+  margin: 8pt 0 10pt 0;
+  page-break-inside: avoid;
+  text-align: center;
+}
+.diagram svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.diagram .caption {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 8.5pt;
+  color: #666;
+  font-style: italic;
+  margin-top: 4pt;
+}
+
+.callout {
+  margin: 7pt 0 8pt 0;
+  padding: 7pt 10pt;
+  border-left: 3pt solid #1f3a5f;
+  background: #f7f5f0;
+  font-size: 9.4pt;
+}
+.callout.warn { border-left-color: #b58a2c; background: #fbf6e6; }
+.callout-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 8.5pt;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #1f3a5f;
+  margin-bottom: 3pt;
+  font-weight: 700;
+}
+
+.verdict {
+  margin: 8pt 0;
+  padding: 8pt 12pt;
+  background: #1f3a5f;
+  color: #fff;
+  font-family: 'Georgia', serif;
+  font-size: 10pt;
+  font-style: italic;
+  line-height: 1.45;
+  page-break-inside: avoid;
+}
+.verdict strong { color: #fff; }
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; }
+.three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8pt; }
+
+/* Cover */
+.cover {
+  page-break-after: always;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3.5cm 2cm 3cm 2cm;
+  background: #fff;
+  position: relative;
+}
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 5pt;
+  background: #1f3a5f;
+}
+.cover-eyebrow {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 9pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #1f3a5f;
+  font-weight: 600;
+  margin-bottom: 1.5cm;
+}
+.cover-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 32pt;
+  line-height: 1.12;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 0.8cm 0;
+  letter-spacing: -0.4pt;
+}
+.cover-subtitle {
+  font-family: 'Georgia', serif;
+  font-size: 13pt;
+  line-height: 1.4;
+  color: #555;
+  font-style: italic;
+  max-width: 14cm;
+  margin-bottom: 0;
+}
+.cover-spacer { flex: 1; }
+.cover-meta {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 6pt 16pt;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 9.5pt;
+  color: #333;
+  border-top: 0.5pt solid #ccc;
+  padding-top: 0.5cm;
+  max-width: 13cm;
+}
+.cover-meta dt { font-weight: 600; color: #1f3a5f; letter-spacing: 0.02em; }
+.cover-meta dd { margin: 0; color: #444; }
+.cover-foot {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 8pt;
+  color: #888;
+  margin-top: 0.7cm;
+  letter-spacing: 0.05em;
+}
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 — COVER -->
+<section class="cover">
+  <div>
+    <div class="cover-eyebrow">Research Project · Concept Proposal</div>
+    <h1 class="cover-title">Domain-Agnostic<br>Hallucination Verification<br>Framework</h1>
+    <p class="cover-subtitle">A pluggable verification engine for evidence-grounded answers across Health, Legal, Research, News, Enterprise, and AI agents.</p>
+  </div>
+  <div>
+    <dl class="cover-meta">
+      <dt>Author</dt><dd>Harsh Kashyap · NYU research project</dd>
+      <dt>Date</dt><dd>2026-07-18</dd>
+      <dt>Status</dt><dd>Concept proposal for team review</dd>
+      <dt>Document</dt><dd>Final report (7 pages)</dd>
+      <dt>Audience</dt><dd>Research professor, collaborators, engineering team</dd>
+      <dt>Reading time</dt><dd>~10 minutes</dd>
+    </dl>
+    <div class="cover-foot">PRINT-READY · SELF-CONTAINED HTML · NO EXTERNAL DEPENDENCIES</div>
+  </div>
+</section>
+
+<!-- PAGE 2 — EXECUTIVE SUMMARY + WHY THIS MATTERS -->
+<h1>1. Executive Summary</h1>
+
+<h2>1.1 The Problem</h2>
+<p>AI systems hallucinate. A factual error in a chatbot is recoverable; a factual error in a medical search engine advising a patient, a legal research tool citing a non-existent precedent, or a financial assistant projecting a tax liability is not. The central question is no longer <em>"can the model produce a fluent response?"</em> but <em>"can we trust every factual statement in the response?"</em></p>
+
+<h2>1.2 The Gap</h2>
+<p>A domain-independent hallucination verification engine is missing. The surveyed landscape:</p>
+<ul>
+  <li><strong>RAG-shaped</strong> tools (RAGAS, DeepEval, TruLens, Patronus) — assume one reference type, single-turn, no multi-evidence</li>
+  <li><strong>Observability-shaped</strong> tools (Phoenix, LangSmith) — capture traces but do not verify</li>
+  <li><strong>Model-eval-shaped</strong> tools (OpenAI Evals, Promptfoo) — test the model, not the answer</li>
+  <li><strong>Specialty</strong> tools (Galileo, Cleanlab) — purpose-built small evaluators, closed weights, no agent eval</li>
+</ul>
+<p>None accepts a heterogeneous bundle of evidence (PDFs, web pages, API responses, structured databases) and returns per-claim verdicts with confidence and source attribution. None represents multi-evidence cases (a claim supported by three pieces of evidence, two of which contradict) as a first-class concept.</p>
+
+<h2>1.3 The Solution — HVE</h2>
+<p>The <strong>Hallucination Verification Engine (HVE)</strong> is a pluggable engine that takes three inputs — question, generated answer, supporting references — and returns a structured Verification Report. It composes three architectural patterns <em>orthogonally</em>:</p>
+<ul>
+  <li><strong>Layered (Defense-in-Depth)</strong> — 5-layer judge stack (lexical → embedding → NLI → LLM → jury) with short-circuit on confident verdicts</li>
+  <li><strong>Graph (Bipartite Claim-Evidence)</strong> — claims and evidence are nodes; verdicts are edges; conflicts are explicit</li>
+  <li><strong>Plugin (Microkernel)</strong> — six plug-in types with formal interface contracts</li>
+</ul>
+
+<h2>1.4 Expected Impact</h2>
+<ul>
+  <li>70–85% factual reliability on organic benchmarks across ≥5 domains</li>
+  <li>Auditability: every verdict is traceable to the evidence that produced it</li>
+  <li>Domain independence: zero per-domain configuration</li>
+  <li>Cost viability: sub-$0.05 per typical verification at production scale</li>
+  <li>First-class conflict detection, bias correction, and confidence calibration — properties no existing framework provides</li>
+</ul>
+
+<!-- PAGE 3 — WHY THIS MATTERS + CURRENT LANDSCAPE -->
+<h1>2. Why This Matters</h1>
+<p>Hallucination is consistently reported as the #1 production failure mode across AI applications (Microsoft AIRT 2025, agentmarketcap.ai, futureagi.com, Zenml's 457+419 case studies).</p>
+
+<div class="callout warn">
+  <div class="callout-title">The 3 Research Gaps</div>
+  <strong>Gap 1 — Heterogeneous evidence.</strong> Existing systems assume one reference type. Production applications have <em>many</em> (PDFs, web pages, API responses, DBs).<br>
+  <strong>Gap 2 — Multi-reference aggregation.</strong> When references disagree, what is the verdict? No principled aggregation exists.<br>
+  <strong>Gap 3 — Domain transferability.</strong> A detector trained on Wikipedia (FActScore) does not transfer to medical or legal. A domain-independent engine is needed.
+</div>
+
+<p>The HVE is not just a tool. It enables a research program: heterogeneous-evidence aggregation, domain transferability, calibration of verification confidence, adversarial robustness, and compositional reasoning. These questions are publishable; the framework is the platform.</p>
+
+<h1>3. Current Landscape</h1>
+<table>
+<thead>
+<tr><th>Framework</th><th>Primary Purpose</th><th>Strengths</th><th>Limitations</th><th>Key Insight</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>RAGAS</strong></td><td>RAG evaluation</td><td>Industry standard; reference-free; LLM-judge</td><td>RAG-shaped; single-turn; no multi-evidence</td><td>Claim-extract → NLI is the right base; locus of measurement is wrong (final answer, not every step)</td></tr>
+<tr><td><strong>DeepEval</strong></td><td>Pytest LLM eval</td><td>50+ metrics; multimodal; agent metrics</td><td>Per-turn; no trajectory-level; visualization gated</td><td>Metric coverage is high but composition is manual</td></tr>
+<tr><td><strong>TruLens</strong></td><td>RAG feedback</td><td>RAG Triad; plug-in feedback functions</td><td>RAG-shaped; no multi-evidence conflict</td><td>Feedback-function pattern is right; lacks formal contract</td></tr>
+<tr><td><strong>Phoenix</strong></td><td>OTEL observability</td><td>OpenTelemetry-native; trace UI; eval templates</td><td>No verification logic; no claim extraction</td><td>OTEL GenAI spec is converging; verification engines should consume it</td></tr>
+<tr><td><strong>LangSmith</strong></td><td>LangChain trace + eval</td><td>Deepest LangGraph integration</td><td>LangChain-coupled; closed source; no verification</td><td>Run/Trace/Thread primitives are the right granularity</td></tr>
+<tr><td><strong>Patronus AI</strong></td><td>Eval-first + Lynx</td><td>Purpose-built detector; open weights</td><td>RAG-only; no multi-evidence</td><td>Fine-tuned open-weights detector matches GPT-4 at 100× lower cost</td></tr>
+<tr><td><strong>OpenAI Evals</strong></td><td>Registry model eval</td><td>Standardized; reproducible</td><td>No observability; hosted platform sunsetting Oct 2026</td><td>Completion Function Protocol is an early agent-eval primitive</td></tr>
+<tr><td><strong>Promptfoo</strong></td><td>CLI regression</td><td>CLI-first; red-team focus; CI/CD native</td><td>No observability; no agent eval</td><td>CLI-first DX is winning developer mindshare</td></tr>
+<tr><td><strong>Galileo / Cleanlab</strong></td><td>Sub-200ms guardrails</td><td>Purpose-built small evaluators</td><td>Closed weights; no agent eval</td><td>Sub-200ms latency is the bar for inline production guardrails</td></tr>
+</tbody>
+</table>
+
+<p><strong>What every existing system misses:</strong> (1) heterogeneous evidence, (2) multi-evidence reasoning, (3) layered judging with short-circuit, (4) formal plug-in contracts, (5) first-class bias correction, calibration, and conflict detection. <strong>HVE addresses all five.</strong></p>
+
+<!-- PAGE 4 — ARCHITECTURE -->
+<h1 class="part-title">The Architecture</h1>
+
+<h2>4.1 The Composition</h2>
+<p>HVE is a <strong>Hybrid (Layered + Graph + Plugin)</strong> architecture. Three sub-architectures are composed orthogonally, not stacked:</p>
+<ul>
+  <li><strong>Layered</strong> — cost-effective judging: lexical → embedding → NLI → LLM → jury, with short-circuit</li>
+  <li><strong>Graph</strong> — multi-evidence reasoning: claims and evidence are nodes; verdicts are edges; conflicts are explicit</li>
+  <li><strong>Plugin</strong> — extensibility: six plug-in types with formal contracts</li>
+</ul>
+<p>Each addresses a concern the others cannot. Layered without Graph cannot represent multi-evidence. Graph without Layered pays full judge cost. Plugin without the others has no structure to plug into.</p>
+
+<h2>4.2 Composition Diagram</h2>
+<div class="diagram">
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11">
+  <defs>
+    <marker id="arr-navy" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f3a5f"/>
+    </marker>
+    <linearGradient id="g-shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f5f0"/>
+      <stop offset="100%" stop-color="#efece4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top: Application Boundary -->
+  <rect x="160" y="8" width="300" height="32" rx="4" fill="#1f3a5f" stroke="#1f3a5f"/>
+  <text x="310" y="28" fill="#fff" text-anchor="middle" font-weight="600" font-size="12">Application Boundary (the engine, user-facing)</text>
+
+  <line x1="310" y1="40" x2="310" y2="68" stroke="#1f3a5f" stroke-width="1.2" marker-end="url(#arr-navy)"/>
+
+  <!-- Three top boxes -->
+  <!-- Plugin Shell -->
+  <rect x="20" y="72" width="170" height="78" rx="4" fill="url(#g-shell)" stroke="#1f3a5f" stroke-width="1.4"/>
+  <text x="105" y="92" fill="#1f3a5f" text-anchor="middle" font-weight="700" font-size="11">Plugin Shell</text>
+  <text x="105" y="108" fill="#666" text-anchor="middle" font-size="9" font-style="italic">(extensibility)</text>
+  <text x="30" y="125" fill="#1a1a1a" font-size="9">• Plugin Registry</text>
+  <text x="30" y="138" fill="#1a1a1a" font-size="9">• Plugin Loader</text>
+  <text x="30" y="151" fill="#1a1a1a" font-size="9">• 6 plug-in types</text>
+
+  <!-- Application Core -->
+  <rect x="225" y="72" width="170" height="78" rx="4" fill="url(#g-shell)" stroke="#1f3a5f" stroke-width="1.4"/>
+  <text x="310" y="92" fill="#1f3a5f" text-anchor="middle" font-weight="700" font-size="11">Application Core</text>
+  <text x="310" y="108" fill="#666" text-anchor="middle" font-size="9" font-style="italic">(orchestration)</text>
+  <text x="235" y="125" fill="#1a1a1a" font-size="9">• Core Orchestrator</text>
+  <text x="235" y="138" fill="#1a1a1a" font-size="9">• Workflow Engine</text>
+  <text x="235" y="151" fill="#1a1a1a" font-size="9">• State Manager</text>
+
+  <!-- Domain Core -->
+  <rect x="430" y="72" width="170" height="78" rx="4" fill="url(#g-shell)" stroke="#1f3a5f" stroke-width="1.4"/>
+  <text x="515" y="92" fill="#1f3a5f" text-anchor="middle" font-weight="700" font-size="11">Domain Core</text>
+  <text x="515" y="108" fill="#666" text-anchor="middle" font-size="9" font-style="italic">(data types)</text>
+  <text x="440" y="125" fill="#1a1a1a" font-size="9">• Claim · Evidence</text>
+  <text x="440" y="138" fill="#1a1a1a" font-size="9">• Verdict · Graph</text>
+  <text x="440" y="151" fill="#1a1a1a" font-size="9">• Trace</text>
+
+  <!-- Arrows from top boxes to layered stack -->
+  <line x1="105" y1="150" x2="105" y2="180" stroke="#1f3a5f" stroke-width="1.2" marker-end="url(#arr-navy)"/>
+  <line x1="310" y1="150" x2="310" y2="180" stroke="#1f3a5f" stroke-width="1.2" marker-end="url(#arr-navy)"/>
+  <line x1="515" y1="150" x2="515" y2="180" stroke="#1f3a5f" stroke-width="1.2" marker-end="url(#arr-navy)"/>
+
+  <!-- Layered Judge Stack -->
+  <rect x="20" y="184" width="580" height="86" rx="4" fill="#fbf6e6" stroke="#b58a2c" stroke-width="1.6"/>
+  <text x="310" y="202" fill="#b58a2c" text-anchor="middle" font-weight="700" font-size="11">Layered Judge Stack (on each graph edge)</text>
+
+  <!-- 5 layers -->
+  <g font-size="9" text-anchor="middle">
+    <rect x="40" y="216" width="98" height="36" rx="3" fill="#fff" stroke="#1f3a5f" stroke-width="1"/>
+    <text x="89" y="232" fill="#1f3a5f" font-weight="600">Lexical</text>
+    <text x="89" y="246" fill="#888" font-size="8">(cheap)</text>
+
+    <rect x="150" y="216" width="98" height="36" rx="3" fill="#fff" stroke="#1f3a5f" stroke-width="1"/>
+    <text x="199" y="232" fill="#1f3a5f" font-weight="600">Embed</text>
+    <text x="199" y="246" fill="#888" font-size="8">(cheap)</text>
+
+    <rect x="260" y="216" width="98" height="36" rx="3" fill="#fff" stroke="#1f3a5f" stroke-width="1"/>
+    <text x="309" y="232" fill="#1f3a5f" font-weight="600">NLI</text>
+    <text x="309" y="246" fill="#888" font-size="8">(mid)</text>
+
+    <rect x="370" y="216" width="110" height="36" rx="3" fill="#fff" stroke="#1f3a5f" stroke-width="1"/>
+    <text x="425" y="232" fill="#1f3a5f" font-weight="600">LLM Judge</text>
+    <text x="425" y="246" fill="#888" font-size="8">(expensive)</text>
+
+    <rect x="492" y="216" width="98" height="36" rx="3" fill="#fff" stroke="#1f3a5f" stroke-width="1"/>
+    <text x="541" y="232" fill="#1f3a5f" font-weight="600">Jury</text>
+    <text x="541" y="246" fill="#888" font-size="8">(consensus)</text>
+  </g>
+
+  <!-- Internal arrows for layers -->
+  <g stroke="#1f3a5f" stroke-width="1" fill="none">
+    <line x1="138" y1="234" x2="150" y2="234" marker-end="url(#arr-navy)"/>
+    <line x1="248" y1="234" x2="260" y2="234" marker-end="url(#arr-navy)"/>
+    <line x1="358" y1="234" x2="370" y2="234" marker-end="url(#arr-navy)"/>
+    <line x1="480" y1="234" x2="492" y2="234" marker-end="url(#arr-navy)"/>
+  </g>
+
+  <!-- short-circuit annotation -->
+  <text x="310" y="262" fill="#b58a2c" text-anchor="middle" font-size="8.5" font-style="italic">short-circuit on confident verdict</text>
+
+  <!-- Arrow to graph layer -->
+  <line x1="310" y1="270" x2="310" y2="290" stroke="#1f3a5f" stroke-width="1.2" marker-end="url(#arr-navy)"/>
+
+  <!-- Graph Layer -->
+  <rect x="20" y="294" width="580" height="58" rx="4" fill="#f0f4fa" stroke="#1f3a5f" stroke-width="1.6"/>
+  <text x="310" y="312" fill="#1f3a5f" text-anchor="middle" font-weight="700" font-size="11">Graph Layer (data structure)</text>
+  <text x="30" y="332" fill="#1a1a1a" font-size="9.5">• Claim nodes · Evidence nodes</text>
+  <text x="310" y="332" fill="#1a1a1a" font-size="9.5">• Edges with verdicts</text>
+  <text x="510" y="332" fill="#1a1a1a" font-size="9.5">• Conflict detection</text>
+</svg>
+<div class="caption">Figure 1. The HVE composition: three sub-architectures (Plugin, Application, Domain) coordinate a layered judge stack on a bipartite claim-evidence graph.</div>
+</div>
+
+<h2>4.3 The 6 Subsystems (24 Modules)</h2>
+<table>
+<thead><tr><th>Subsystem</th><th>Purpose</th><th>Key Modules</th></tr></thead>
+<tbody>
+<tr><td><strong>Input</strong> (L4)</td><td>Parse input, format output, hold configuration</td><td>Input Gate, Output Formatter, Configuration Manager</td></tr>
+<tr><td><strong>Orchestration</strong> (L3)</td><td>Drive workflow, manage state</td><td>Core Orchestrator, Workflow Engine, State Manager</td></tr>
+<tr><td><strong>Domain</strong> (L2)</td><td>Define data types and invariants</td><td>Claim, Evidence, Verdict, Graph, Trace, Conflict Resolver, Confidence Calibrator, Trainable Aggregator</td></tr>
+<tr><td><strong>Plugin</strong> (L1)</td><td>Define extensibility surface</td><td>Plugin Registry, Plugin Loader, Interface Specification</td></tr>
+<tr><td><strong>Infrastructure</strong> (L0)</td><td>Hold runtime resources</td><td>Judge Pool, Embedding Index</td></tr>
+<tr><td><strong>Cross-cutting</strong> (X)</td><td>Filter observations, post-process verdicts</td><td>Observability Sink, Error Handler, Bias Corrector</td></tr>
+</tbody>
+</table>
+
+<h2>4.4 Information Flow</h2>
+<div class="diagram">
+<svg viewBox="0 0 620 200" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11">
+  <defs>
+    <marker id="arr-flow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f3a5f"/>
+    </marker>
+    <linearGradient id="g-engine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f3a5f"/>
+      <stop offset="100%" stop-color="#2d4f7c"/>
+    </linearGradient>
+    <linearGradient id="g-input" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f5f0"/>
+      <stop offset="100%" stop-color="#efece4"/>
+    </linearGradient>
+    <linearGradient id="g-output" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf6e6"/>
+      <stop offset="100%" stop-color="#f4edcc"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Inputs (left column) -->
+  <g>
+    <rect x="20" y="20" width="120" height="34" rx="4" fill="url(#g-input)" stroke="#1f3a5f" stroke-width="1.4"/>
+    <text x="80" y="41" fill="#1f3a5f" text-anchor="middle" font-weight="600">Question</text>
+
+    <rect x="20" y="68" width="120" height="34" rx="4" fill="url(#g-input)" stroke="#1f3a5f" stroke-width="1.4"/>
+    <text x="80" y="89" fill="#1f3a5f" text-anchor="middle" font-weight="600">Generated Answer</text>
+
+    <rect x="20" y="116" width="120" height="34" rx="4" fill="url(#g-input)" stroke="#1f3a5f" stroke-width="1.4"/>
+    <text x="80" y="135" fill="#1f3a5f" text-anchor="middle" font-weight="600">References</text>
+    <text x="80" y="148" fill="#666" text-anchor="middle" font-size="8" font-style="italic">(heterogeneous)</text>
+  </g>
+
+  <!-- Arrows from inputs to engine -->
+  <g stroke="#1f3a5f" stroke-width="1.2" fill="none">
+    <line x1="140" y1="37" x2="220" y2="90" marker-end="url(#arr-flow)"/>
+    <line x1="140" y1="85" x2="220" y2="95" marker-end="url(#arr-flow)"/>
+    <line x1="140" y1="133" x2="220" y2="100" marker-end="url(#arr-flow)"/>
+  </g>
+
+  <!-- Engine (center) -->
+  <rect x="225" y="40" width="170" height="120" rx="6" fill="url(#g-engine)" stroke="#1f3a5f" stroke-width="2"/>
+  <text x="310" y="78" fill="#fff" text-anchor="middle" font-weight="700" font-size="13">HVE</text>
+  <text x="310" y="98" fill="#fff" text-anchor="middle" font-size="11">Verification Engine</text>
+  <text x="310" y="118" fill="#cfd8e3" text-anchor="middle" font-size="9" font-style="italic">claim-extract → match</text>
+  <text x="310" y="132" fill="#cfd8e3" text-anchor="middle" font-size="9" font-style="italic">→ layered judge →</text>
+  <text x="310" y="146" fill="#cfd8e3" text-anchor="middle" font-size="9" font-style="italic">aggregate → calibrate</text>
+
+  <!-- Arrow from engine to output -->
+  <line x1="395" y1="100" x2="470" y2="100" stroke="#1f3a5f" stroke-width="1.4" marker-end="url(#arr-flow)"/>
+
+  <!-- Output (right) -->
+  <rect x="475" y="20" width="125" height="160" rx="4" fill="url(#g-output)" stroke="#b58a2c" stroke-width="1.4"/>
+  <text x="537" y="40" fill="#8a6519" text-anchor="middle" font-weight="700" font-size="11">Verification Report</text>
+  <line x1="488" y1="50" x2="587" y2="50" stroke="#b58a2c" stroke-width="0.5"/>
+
+  <g font-size="9" fill="#1a1a1a">
+    <circle cx="492" cy="68" r="2" fill="#b58a2c"/>
+    <text x="500" y="71">per-claim verdicts</text>
+    <circle cx="492" cy="86" r="2" fill="#b58a2c"/>
+    <text x="500" y="89">confidence scores</text>
+    <circle cx="492" cy="104" r="2" fill="#b58a2c"/>
+    <text x="500" y="107">evidence pointers</text>
+    <circle cx="492" cy="122" r="2" fill="#b58a2c"/>
+    <text x="500" y="125">conflict flags</text>
+    <circle cx="492" cy="140" r="2" fill="#b58a2c"/>
+    <text x="500" y="143">reliability score</text>
+    <circle cx="492" cy="158" r="2" fill="#b58a2c"/>
+    <text x="500" y="161">cost report</text>
+    <circle cx="492" cy="176" r="2" fill="#b58a2c"/>
+    <text x="500" y="179">audit trail</text>
+  </g>
+
+  <!-- Footer note about heterogeneous -->
+  <text x="310" y="195" fill="#666" text-anchor="middle" font-size="8.5" font-style="italic">References: PDFs · web pages · API responses · structured DB rows · search results · research papers</text>
+</svg>
+<div class="caption">Figure 2. Information flow through the HVE: three inputs in, one structured report out.</div>
+</div>
+
+<!-- PAGE 5 — NOVELTY -->
+<h1>5. Conceptual Novelty</h1>
+<p>The novelty is not in any single component (each is a known pattern). The novelty is in the <strong>composition</strong> and in the <strong>research contribution</strong>.</p>
+
+<table>
+<thead>
+<tr><th>Property</th><th>HVE</th><th>RAGAS</th><th>DeepEval</th><th>TruLens</th><th>Phoenix</th><th>LangSmith</th><th>Patronus</th><th>OpenAI Evals</th></tr>
+</thead>
+<tbody>
+<tr><td>Domain independence</td><td class="center">✓</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">N/A</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td></tr>
+<tr><td>Heterogeneous evidence</td><td class="center">✓</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">N/A</td><td class="center">N/A</td><td class="center">✗</td><td class="center">✗</td></tr>
+<tr><td>Multi-evidence graph</td><td class="center">✓</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td></tr>
+<tr><td>Layered judge stack</td><td class="center">✓</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td></tr>
+<tr><td>Formal plug-in contracts</td><td class="center">✓</td><td class="center">✗</td><td class="center">partial</td><td class="center">partial</td><td class="center">partial</td><td class="center">✗</td><td class="center">partial</td><td class="center">partial</td></tr>
+<tr><td>First-class bias correction</td><td class="center">✓</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td></tr>
+<tr><td>First-class calibration</td><td class="center">✓</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td></tr>
+<tr><td>First-class conflict detection</td><td class="center">✓</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td><td class="center">✗</td></tr>
+</tbody>
+</table>
+
+<div class="verdict"><strong>The composition is the contribution.</strong> No existing framework has all eight properties. Each is a known pattern; the combination is novel.</div>
+
+<!-- PAGE 6 — OPEN QUESTIONS, RISKS, ROADMAP -->
+<h1>6. Open Questions, Risks, and Roadmap</h1>
+
+<h2>6.1 Open Research Questions</h2>
+<ol>
+  <li><strong>What is the upper bound of verification accuracy?</strong> Given perfect retrieval, NLI, and LLM, what is achievable?</li>
+  <li><strong>What is the optimal layer ordering?</strong> Is lexical → embedding → NLI → LLM → jury optimal under all conditions?</li>
+  <li><strong>Can the calibration function be learned end-to-end?</strong> Joint training may outperform post-hoc scaling.</li>
+  <li><strong>How does the engine behave under LLM version drift?</strong> When pinned judges upgrade, how is accuracy affected?</li>
+</ol>
+
+<h2>6.2 Risks</h2>
+<ul>
+  <li><strong>Calibration drift</strong> — distribution shift degrades the calibrator over time</li>
+  <li><strong>LLM version drift</strong> — pinned judge versions become deprecated; reproducibility breaks</li>
+  <li><strong>Retrieval failure cascade</strong> — if the retriever misses, the verifier has nothing to verify</li>
+  <li><strong>Adversarial references</strong> — poisoned evidence could mislead the engine</li>
+</ul>
+
+<h2>6.3 Roadmap</h2>
+<table>
+<thead><tr><th>Milestone</th><th>Duration</th><th>Deliverable</th></tr></thead>
+<tbody>
+<tr><td><strong>M1: Theoretical Framework</strong></td><td>Months 0–2</td><td>Formal definitions of Claim, Evidence, Verdict, V, C, A; complexity bounds; ≥1 falsifiable prediction</td></tr>
+<tr><td><strong>M2: Evaluation Suite</strong></td><td>Months 2–4</td><td>Organic benchmarks across 5 domains (Health, Legal, Research, News, Financial); ≥1,000 annotated examples/domain; κ ≥ 0.7</td></tr>
+<tr><td><strong>M3: Reference Implementation</strong></td><td>Months 4–8</td><td>Engine with 4 critical plug-in types; baseline accuracy on the evaluation suite</td></tr>
+<tr><td><strong>M4: Open-Source Release</strong></td><td>Months 8–12</td><td>Public release; community plug-ins; production case studies in ≥3 domains</td></tr>
+<tr><td><strong>M5: Trainable Components</strong></td><td>Months 12–18</td><td>Trainable Aggregator; learned edge scorer; calibration benchmarks</td></tr>
+<tr><td><strong>M6: Production Hardening</strong></td><td>Months 18–24</td><td>Distributed execution; caching; rate limiting; SLA monitoring</td></tr>
+</tbody>
+</table>
+
+<!-- PAGE 7 — FEEDBACK REQUESTED + REFERENCES -->
+<h1>7. Feedback Requested</h1>
+<p>Before implementation, the team would value feedback on:</p>
+<ol>
+  <li><strong>Scope of the theoretical framework.</strong> Is the formal model the right level of formalism for the research program?</li>
+  <li><strong>Choice of evaluation domains.</strong> Are Health, Legal, Research, News, Financial the right starting set?</li>
+  <li><strong>Composition vs decomposition.</strong> Is the Hybrid (Layered + Graph + Plugin) composition the right architectural choice, or should we commit to a single pattern?</li>
+  <li><strong>Trainable aggregator.</strong> Is the trainable aggregator the right place to invest research effort, or should the trainable component be elsewhere?</li>
+  <li><strong>Calibration theory.</strong> Should calibration be a first-class research contribution?</li>
+  <li><strong>Ethical and societal risks.</strong> What are the ethical considerations for a verification engine in high-stakes domains? How should we address bias in the engine's own outputs?</li>
+  <li><strong>Publication strategy.</strong> Is a 24-month publication plan appropriate? Which venues (ACL, EMNLP, ICLR, NeurIPS)?</li>
+  <li><strong>Resource allocation.</strong> Is the proposed 6-subsystem, 24-module structure appropriately scoped for a research team?</li>
+</ol>
+
+<h2>References (selected)</h2>
+<p style="font-size: 8.5pt; line-height: 1.35;">Es et al. "RAGAS." arXiv:2309.15217 (2023). Peng et al. "LLM-based Agents Suffer from Hallucinations." arXiv:2509.18970 (2025). "PING Taxonomy for Deep Research Agents." arXiv:2601.22984 (2026). "Cascading Hallucination in Agentic RAG (CHARM)." arXiv:2606.04435 (2026). "How Enhancing LLM Reasoning Amplifies Tool Hallucination." arXiv:2510.22977 (2025). "AgentHallu." arXiv:2601.06818 (2026). Manakul et al. "SelfCheckGPT." arXiv:2303.08896 (2023). Min et al. "FActScore." arXiv:2305.14251 (2023). Tang et al. "MiniCheck." arXiv:2404.10774 (2024). Dhuliawala et al. "Chain-of-Verification." ACL Findings 2024. Kim et al. "Prometheus 2." arXiv:2405.01535 (2024). "HaluEval." arXiv:2305.11747 (2023). Hong et al. "FaithBench." arXiv:2410.13210 (2024). "HalluLens." arXiv:2504.17550 (2025). "Collu-Bench." arXiv:2410.09997 (2024). "SQLHD." arXiv:2512.22250 (2025). "Re-evaluating Hallucination Detection in LLMs." arXiv:2508.08285 (2025). "The Semantic Illusion." arXiv:2512.15068 (2025). RAGAS (Apache 2.0, github.com/explodinggradients/ragas). DeepEval (Apache 2.0, github.com/confident-ai/deepeval). Phoenix (Elastic 2.0, github.com/Arize-ai/phoenix). Patronus Lynx (open-weights, huggingface.co/patronus-ai). MiniCheck (EMNLP 2024, github.com/Liyan06/MiniCheck). Full 250+ source list in companion <code>research-report.md</code>.</p>
+
+<div class="verdict"><strong>The ask is feedback.</strong> The implementation will follow after the feedback is incorporated. The research program enabled by HVE is what the field needs: a domain-independent, evidence-grounded, multi-evidence-aware, bias-corrected, calibrated, conflict-detecting, plug-in-extensible, formally specified verification engine. <strong>The composition is the contribution.</strong></div>
+
+<p style="text-align: center; margin-top: 14pt; font-family: 'Helvetica', sans-serif; font-size: 8pt; color: #888; letter-spacing: 0.1em;">
+  END OF FINAL REPORT
+</p>
+
+</body>
+</html>
