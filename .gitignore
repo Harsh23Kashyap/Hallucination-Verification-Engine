@@ -24,3 +24,8 @@ Desktop.ini
 *.tmp
 *.bak
 *.orig
+
+# Local knowledge index (mavis-knowledge)
+# The AGENTS.md auto-load pointer IS committed; the local SQLite index is not.
+.claude/knowledge/index.sqlite
+.claude/knowledge/index.sqlite-*
