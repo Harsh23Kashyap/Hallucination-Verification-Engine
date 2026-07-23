@@ -7,6 +7,7 @@ A research prototype for verifying LLM-generated answers against a provided set 
 ```
 .
 ├── docs/                             written content
+│   ├── STATUS.md                     current project state + decisions (read first)
 │   ├── FINAL-REPORT.md               consolidated deliverable
 │   ├── FINAL-REPORT-v3.html          print-ready HTML
 │   ├── research-report.md            underlying 10x research synthesis
@@ -22,12 +23,13 @@ A research prototype for verifying LLM-generated answers against a provided set 
 
 ## Reading order
 
-1. `diagrams/HVE-architecture.drawio.png` — the high-level design, one page
-2. `docs/architecture-brief.md` — 10-minute read on what the system is and why
-3. `docs/reference-architecture.md` — the full architecture with the 24-module decomposition
-4. `docs/architecture-review-v2.md` — 7-reviewer critique and the v2 changes
-5. `docs/FINAL-REPORT.md` — the consolidated deliverable
-6. `docs/research-report.md` — the 10x research synthesis (250+ sources) underlying it all
+1. `docs/STATUS.md` — current state of the project (read first; explains the design overrides from the professor's feedback)
+2. `diagrams/HVE-architecture.drawio.png` — the high-level design, one page (V2; the implementation in the teammate's repo uses the merged 4-stage variant)
+3. `docs/architecture-brief.md` — 10-minute read on what the system is and why
+4. `docs/reference-architecture.md` — the full architecture with the 24-module decomposition
+5. `docs/architecture-review-v2.md` — 7-reviewer critique and the v2 changes
+6. `docs/FINAL-REPORT.md` — the consolidated deliverable
+7. `docs/research-report.md` — the 10x research synthesis (250+ sources) underlying it all
 
 ## What the system does
 
@@ -40,7 +42,7 @@ Output: per-claim verdict + confidence + evidence pointer + overall verdict.
 
 ## Status
 
-Concept / research proposal. The HLD is the deliverable for the professor's review. Implementation has not started.
+**Approved, validation in progress** (as of 2026-07-23). The HLD was approved by Professor Dennis Shasha (NYU) on 2026-07-22 with three design overrides: (1) merge claim extraction + reference matching into one step, (2) use the "ask the document directly" framing for verification, (3) ship as a standalone tool (not CustomNerd-integrated). Initial implementation is being built by Taranum Wasu (separate repo). Validation methodology defined by the professor: **permutation test** (N citations → permute N/2 → HVE should detect the perturbations) + arXiv Related Work + OpenDeepResearch outputs. See `docs/STATUS.md` for full details.
 
 ## License
 
