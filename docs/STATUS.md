@@ -1,14 +1,15 @@
 # Project Status
 
-*Live state of the Hallucination-Verification-Engine project as of 2026-07-23. The historical design docs (reference-architecture.md, architecture-review-v2.md, architecture-brief.md, FINAL-REPORT.md) describe the V2 design as proposed. This file tracks what actually happened after the proposal was sent to the professor.*
+*Live state of the Hallucination-Verification-Engine project as of 2026-07-25. The historical design docs (reference-architecture.md, architecture-review-v2.md, architecture-brief.md, FINAL-REPORT.md) describe the V2 design as proposed. This file tracks what actually happened after the proposal was sent to the professor.*
 
 ---
 
-## Current state (2026-07-23)
+## Current state (2026-07-25)
 
 - **HLD approved** by Professor Dennis Shasha (NYU) on 2026-07-22.
-- **Initial implementation built** by Taranum Wasu (project teammate). The implementation is **NOT in this repo** — it lives separately, likely at `../Hallucination-Verification-Engine-impl` or similar. This repo remains the design/proposal layer.
+- **Initial implementation built** by Taranum Wasu (project teammate). The implementation is **NOT in this repo** — it lives separately. This repo remains the design/proposal layer.
 - **Validation methodology defined** by the professor: permutation test + arXiv real citations + OpenDeepResearch outputs. Taranum is executing this in parallel.
+- **Latest from Taranum (2026-07-25 21:33):** first round of permutation tests, ODR runs with verified hallucinations, format coverage, and the docs are complete. Taranum is now moving to **prove the result statistically** — the next milestone is significance testing on the permutation test results.
 - **Integration decision pending** — HVE will be **standalone** for now. The professor will only integrate it into CustomNerd if it measurably reduces CustomNerd's hallucinations.
 
 ## Email thread (summarized)
@@ -25,6 +26,10 @@
 - **Wed 22 Jul 23:27** — Harsh asked professor for more detail on the verification mechanism.
 - **Thu 23 Jul 06:22** — Professor specified the **permutation test**: take a synopsis with N citations, randomly permute N/2, run HVE, expect N/2 unswapped = "ok" and N/2 swapped = "not ok". Apply to multiple synopses + arXiv Related Work sections.
 - **Thu 23 Jul 14:56** — Taranum confirmed understanding. Already tested on arXiv. Now building the permutation test + OpenDeepResearch evaluation.
+- **Fri 24 Jul 00:07** — Professor confirmed: "Correct" on the permutation test. Reinforced: *"do the same thing for arxiv papers as you are doing for synopses"* — the permutation test applies to **both** synopses and arXiv Related Work sections.
+- **Sat 25 Jul 10:58** — Harsh confirmed understanding to the professor.
+- **Sat 25 Jul 19:21** — Professor: *"Great. Thanks."*
+- **Sat 25 Jul 21:33** — Taranum shared first results: permutation tests done, ODR runs with verified hallucinations done, format coverage done, docs done. **Next: statistical proof.**
 
 ## Design decisions (overrides the V2 architecture)
 
@@ -57,17 +62,18 @@ The exact protocol from Dennis Shasha (2026-07-23 06:22):
 
 > *"We can take a synopsis that makes N citations and randomly permute N/2 citations. The N/2 that weren't permuted should be declared ok and the N/2 that are permuted should be declared not ok. This will not be perfect, but the difference should be big enough. We do this for several synopses and also for several related work sections of papers."*
 
+Reinforced on 2026-07-24 00:07: *"do the same thing for arxiv papers as you are doing for synopses"* — the permutation test applies identically to **both** synopses and arXiv Related Work sections.
+
 **Operationalized:**
-- Input: a synopsis (or arXiv Related Work section) with N citations.
+- Input: a synopsis or arXiv Related Work section with N citations.
 - Perturbation: randomly permute N/2 citations (swap their referent with another citation in the same document).
 - HVE prediction: the N/2 unperturbed citations → "ok"; the N/2 perturbed citations → "not ok".
 - Metric: agreement with the ground-truth perturbation mask. Not accuracy — agreement. "Ok" + "not ok" labels are independent per-citation.
 - Statistical power: "the difference should be big enough" — i.e., HVE's agreement rate on perturbed vs unperturbed should be statistically separable from 50% (random).
+- **Statistical proof (next milestone, 2026-07-25):** Taranum is now computing the significance of the gap between perturbed and unperturbed agreement rates.
 - Repeat: several synopses + several Related Work sections.
 
 **Why this is a strong test:** it isolates the verification step from generation. A model that just memorizes the input would score near 100% on unperturbed and near 0% on perturbed (high agreement). A model that doesn't actually verify would score ~50% on both (no signal). The gap between HVE's score on the two subsets is the verification signal.
-
-**Implementation status:** Taranum is building this now. No results yet.
 
 ### Test cases
 
@@ -75,7 +81,7 @@ The exact protocol from Dennis Shasha (2026-07-23 06:22):
 2. **OpenDeepResearch outputs** — agent-generated synopses with citations. Tests the "agent hallucination" scenario, not just "human-author hallucination."
 3. **Permutation-perturbed versions of both** — synthetic ground truth.
 
-## Taranum's reported initial metrics (pre-permutation-test, 2026-07-22 20:38)
+## Taranum's reported initial metrics (2026-07-22 20:38, pre-permutation-test)
 
 - **Scope:** 5 test questions.
 - **Precision:** 92%.
@@ -83,6 +89,14 @@ The exact protocol from Dennis Shasha (2026-07-23 06:22):
 - **Supported reference types:** PDF, web pages, plain text.
 - **Output format:** per-claim verdict + confidence + evidence span pointer + overall reliability verdict, in JSON and Markdown.
 - **Caveat:** n=5. Not statistically significant. The permutation test is the real evaluation.
+
+## Taranum's progress as of 2026-07-25 21:33
+
+- **Permutation test:** complete (raw results, not yet with statistical proof).
+- **OpenDeepResearch runs with verified hallucinations:** complete.
+- **Format coverage:** complete.
+- **Docs:** complete.
+- **Next:** prove the result statistically (compute significance of the perturbed-vs-unperturbed gap).
 
 ## Architectural implications still to resolve
 
