@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question_id": "ODR-Q1",
+    "ref": 2,
+    "claim": "A relative dosage of 0.1-0.14 g/kg/day of creatine may be beneficial for older adults to enhance muscle strength and bone health.",
+    "source_url": "https://www.healthline.com/nutrition/creatine-loading-phase",
+    "source_title": "Creatine Loading Phase: Research, Benefits, Safety, and How To",
+    "proof": "Ctrl+F '0.14' \u2192 not found. Page is about loading phases, never mentions 0.14 g/kg or older adults.",
+    "type": "fabricated_specifics"
+  },
+  {
+    "id": 2,
+    "question_id": "ODR-Q2",
+    "ref": 17,
+    "claim": "Studies showed an average fat mass decrease of 6% while preserving fat-free mass with the 16/8 method.",
+    "source_url": "https://www.healthline.com/nutrition/alternate-day-fasting-guide",
+    "source_title": "Alternate-Day Fasting: A Comprehensive Beginner's Guide",
+    "proof": "Ctrl+F '16/8' \u2192 not found. Article is about alternate-day fasting, not 16/8 method.",
+    "type": "wrong_source"
+  },
+  {
+    "id": 3,
+    "question_id": "ODR-Q2",
+    "ref": 22,
+    "claim": "Some studies reported concerns about muscle loss occurring during fasting days.",
+    "source_url": "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/nutrition/ask-the-expert/fast-diet",
+    "source_title": "British Heart Foundation - Is the 5:2 diet good for weight loss?",
+    "proof": "Ctrl+F 'muscle loss' \u2192 not found in 10,506 chars of page content.",
+    "type": "claim_absent"
+  },
+  {
+    "id": 4,
+    "question_id": "ODR-Q2",
+    "ref": 24,
+    "claim": "Some users of Alternate-Day Fasting cite adherence challenges.",
+    "source_url": "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/nutrition/ask-the-expert/fast-diet",
+    "source_title": "British Heart Foundation - Is the 5:2 diet good for weight loss?",
+    "proof": "Ctrl+F 'adherence' \u2192 not found in 10,506 chars of page content.",
+    "type": "claim_absent"
+  },
+  {
+    "id": 5,
+    "question_id": "ODR-Q3",
+    "ref": 1,
+    "claim": "A review highlighted that vitamin D supplementation does not significantly reduce depressive symptoms.",
+    "source_url": "https://link.springer.com/article/10.1186/s12937-025-01199-1",
+    "source_title": "The relationship between vitamin D levels and depression: a genetically informed study",
+    "proof": "Source CONTRADICTS the claim. Paper says vitamin D has 'beneficial impact on depressive symptom severity.' ODR says the opposite.",
+    "type": "contradicted_by_source"
+  },
+  {
+    "id": 6,
+    "question_id": "ODR-Q3",
+    "ref": 4,
+    "claim": "Health practitioners are encouraged to incorporate routine vitamin D screening and supplementation.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6970300",
+    "source_title": "Vitamin D and Depression: A Critical Appraisal of the Evidence and Future Directions",
+    "proof": "Source CONTRADICTS the claim. Paper says 'evidence is not strong enough to recommend universal vitamin D supplementation in depression.' ODR says practitioners SHOULD recommend it.",
+    "type": "contradicted_by_source"
+  },
+  {
+    "id": 7,
+    "question_id": "ODR-Q4",
+    "ref": 2,
+    "claim": "A systematic review revealed average reductions of 1.19 mmHg in systolic and 0.91 mmHg in diastolic pressure from omega-3 supplementation.",
+    "source_url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.1069992/full",
+    "source_title": "Role of omega-3 fatty acids in the prevention of cardiovascular diseases",
+    "proof": "'1.19' exists in page only as confidence interval (HR 0.78-1.19), NOT as mmHg blood pressure value. '0.91 mmHg' not found at all.",
+    "type": "fabricated_specifics"
+  }
+]

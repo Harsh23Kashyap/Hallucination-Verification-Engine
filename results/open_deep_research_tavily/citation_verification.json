@@ -1,0 +1,2170 @@
+[
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C1",
+    "claim_text": "Creatine supplementation has the potential to enhance muscle strength.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C2",
+    "claim_text": "Creatine is a naturally occurring compound in the body that plays a pivotal role in energy production during high-intensity exercise.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C3",
+    "claim_text": "Supplementation with creatine is aimed at increasing muscle phosphocreatine stores, augmenting ATP resynthesis, and improving performance across various types of physical activity, particularly resistance training.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C4",
+    "claim_text": "The standard recommended dosage for creatine supplementation ranges from 3 to 5 grams per day for maintenance.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "evidence-based research shows that creatine supplementation is relatively well tolerated, especially at recommended dosages (i.e. 3-5 g/day or 0.1 g/kg of body mass/day).",
+    "evidence_reference": "1",
+    "evidence_span_start": 4766,
+    "evidence_span_end": 4936,
+    "reasoning": "The content explicitly states that the recommended dosage for creatine supplementation is 3-5 grams per day, which directly supports the claim attributed to the document."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C5",
+    "claim_text": "An alternative approach to creatine supplementation includes a loading phase, typically involving 20 grams per day for the first 5-7 days followed by a maintenance dose of 3-5 grams per day.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "resistance-trained males who received creatine at a dose of 0.3 g/kg lean body mass/day for 7 days (approximately 20 g/day) followed by 4 weeks at 0.075 g/kg lean body mass/day for 28 days (approximately 5 g/day)",
+    "evidence_reference": "1",
+    "evidence_span_start": 10688,
+    "evidence_span_end": 10900,
+    "reasoning": "The content explicitly describes a creatine supplementation protocol that includes a loading phase of approximately 20 grams per day for 7 days followed by a maintenance dose of approximately 5 grams per day. This directly supports the claim about an alternative approach to creatine supplementation."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C6",
+    "claim_text": "Higher loading doses of creatine lead to rapid increases in muscle creatine levels.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "A creatine loading phase uses 20 to 25 grams daily for 5 to 7 days to quickly saturate muscle creatine stores",
+    "evidence_reference": "2",
+    "evidence_span_start": 14,
+    "evidence_span_end": 123,
+    "reasoning": "The content explicitly states that a creatine loading phase involves taking higher doses (20 to 25 grams daily) to quickly saturate muscle creatine stores, which supports the claim that higher loading doses lead to rapid increases in muscle creatine levels."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C7",
+    "claim_text": "Lower maintenance doses of creatine can be effective over time.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "other studies have found that lower doses of creatine taken once daily can be equally effective at maximizing your stores of creatine, though it may take a bit longer.",
+    "evidence_reference": "2",
+    "evidence_span_start": 1578,
+    "evidence_span_end": 1745,
+    "reasoning": "The content explicitly states that lower doses of creatine taken daily can be equally effective at maximizing creatine stores, which supports the claim that lower maintenance doses can be effective over time."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C8",
+    "claim_text": "A relative dosage of 0.1-0.14 g/kg/day of creatine may be beneficial for older adults to enhance muscle strength and bone health.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content discusses creatine supplementation, including loading phases and general benefits for muscle mass and strength, but it does not mention specific dosage recommendations for older adults or any effects on bone health. The claim about a relative dosage of 0.1-0.14 g/kg/day for older adults is not addressed in the provided content."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C9",
+    "claim_text": "Continuous daily creatine supplementation is generally more effective than intermittent use, particularly when combined with resistance training to maximize strength gains.",
+    "cited_refs": [
+      3
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "3",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is only the title of a systematic review and meta-analysis, which does not contain any specific information or findings. Without access to the full text of the document, it is impossible to verify whether the claim about continuous daily creatine supplementation being more effective than intermittent use is supported by the study. The title suggests the paper is relevant to the topic of creatine supplementation and muscle strength, but it does not provide enough detail to assess the specific claim."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C10",
+    "claim_text": "Studies have shown significant improvements in muscle strength and mass in response to creatine supplementation over both short-term and long-term periods.",
+    "cited_refs": [
+      4
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.95,
+    "evidence_quote": "Cr supplementation significantly improves muscle strength in the general population.",
+    "evidence_reference": "4",
+    "evidence_span_start": 3913,
+    "evidence_span_end": 3997,
+    "reasoning": "The content explicitly states that creatine supplementation significantly improves muscle strength, which aligns with the claim of significant improvements in muscle strength and mass. Although the content does not explicitly mention 'mass,' the focus on muscle strength improvements supports the claim regarding strength. The mention of both short-term and long-term periods is not directly addressed, but the general improvement supports the claim's essence."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C12",
+    "claim_text": "Younger adults typically experience more pronounced increases in strength from creatine supplementation compared to older populations.",
+    "cited_refs": [
+      5
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.3,
+    "evidence_quote": "",
+    "evidence_reference": "5",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is only the title of a systematic review and does not include any specific findings or conclusions. Without access to the full text of the review, it is impossible to verify whether the claim about younger adults experiencing more pronounced increases in strength from creatine supplementation compared to older populations is supported by the document."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C13",
+    "claim_text": "Older adults can still benefit significantly from creatine supplementation, particularly when combined with resistance training.",
+    "cited_refs": [
+      5
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.3,
+    "evidence_quote": "",
+    "evidence_reference": "5",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is only the title of a systematic review and does not include any specific findings or conclusions. Without access to the full text, it is impossible to verify whether the claim about older adults benefiting from creatine supplementation, especially when combined with resistance training, is supported by the document. The title suggests a focus on age, sex, and exercise type, which might relate to the claim, but without more detailed content, this cannot be confirmed."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C14",
+    "claim_text": "Meta-analyses reveal that males generally report greater muscle strength and hypertrophy gains from creatine supplementation than females.",
+    "cited_refs": [
+      6
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "6",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is a title of a document or section, 'The optimal creatine protocol for strength, brain, and longevity,' which does not contain any specific information or data regarding the effects of creatine supplementation on muscle strength, nor does it address differences in effects between males and females. Without additional content or context, it is impossible to verify the claim attributed to this source."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C15",
+    "claim_text": "Significant enhancements in both upper- and lower-body strength were observed in male subjects from creatine supplementation.",
+    "cited_refs": [
+      6
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "6",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is insufficient to assess the claim. The title alone does not provide any specific information about the effects of creatine supplementation on muscle strength, nor does it confirm or deny the claim about enhancements in upper- and lower-body strength in male subjects. Without additional content or context, it is impossible to verify the claim."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C16",
+    "claim_text": "Females demonstrated less pronounced improvements in muscle strength from creatine supplementation compared to males.",
+    "cited_refs": [
+      6
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "6",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is a title and does not contain any specific information or data regarding the effects of creatine supplementation on muscle strength, nor does it address differences in effects between males and females. Without access to the full text, it is impossible to verify whether the claim is supported or not."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C17",
+    "claim_text": "Untrained individuals often exhibit greater initial responses to creatine supplementation due to their lower baseline muscle creatine levels.",
+    "cited_refs": [
+      7
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "Creatine supplements can increase muscle creatine stores by 10\u201340%, depending on you and your current levels (7). If you have low stores, you may see even more noticeable improvements.",
+    "evidence_reference": "7",
+    "evidence_span_start": 5301,
+    "evidence_span_end": 5485,
+    "reasoning": "The content discusses that individuals with lower baseline muscle creatine levels may experience more noticeable improvements from creatine supplementation. This implies that untrained individuals, who likely have lower baseline levels, could exhibit greater initial responses. However, the content does not explicitly state that untrained individuals often exhibit greater initial responses, so the claim is only partially supported."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C18",
+    "claim_text": "Highly trained athletes may experience diminished returns from creatine supplementation.",
+    "cited_refs": [
+      7
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.7,
+    "evidence_quote": "The majority of studies show that creatine can improve strength and power, for both athletes and beginners.",
+    "evidence_reference": "7",
+    "evidence_span_start": 3721,
+    "evidence_span_end": 3828,
+    "reasoning": "The content discusses the benefits of creatine supplementation for both athletes and beginners, indicating that it generally improves strength and power. However, it does not explicitly state that highly trained athletes experience diminished returns. The claim is partially supported as the document implies that creatine is beneficial across different levels of training, but it does not specifically address the concept of 'diminished returns' for highly trained athletes."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C19",
+    "claim_text": "Creatine enhances muscle strength by elevating phosphocreatine storage and boosting ATP availability during high-intensity exercise.",
+    "cited_refs": [
+      8
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "8",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is insufficient to assess the claim. The title suggests a discussion on how creatine promotes muscle growth, but without the actual text or details from the document, it's impossible to verify whether the claim about creatine enhancing muscle strength by elevating phosphocreatine storage and boosting ATP availability is supported."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C20",
+    "claim_text": "Creatine supplementation may reduce muscle damage and inflammation following intense exercise, potentially shortening recovery times.",
+    "cited_refs": [
+      9
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "creatine supplementation may speed up recovery time between bouts of intense exercise by mitigating muscle damage and promoting the faster recovery of lost force-production potential.",
+    "evidence_reference": "9",
+    "evidence_span_start": 3683,
+    "evidence_span_end": 3866,
+    "reasoning": "The content explicitly states that creatine supplementation may speed up recovery time by mitigating muscle damage, which aligns with the claim that it may reduce muscle damage and inflammation following intense exercise, potentially shortening recovery times."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C21",
+    "claim_text": "Creatine acts as an osmotic agent, drawing water into muscle cells, which can promote cell volumization and trigger anabolic signaling pathways.",
+    "cited_refs": [
+      10
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.2,
+    "evidence_quote": "",
+    "evidence_reference": "10",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is only the title of a review paper and does not include any specific details or findings from the paper itself. Without access to the full text, it is impossible to verify whether the claim about creatine acting as an osmotic agent and its effects on muscle cells is supported by the document. Therefore, the claim cannot be assessed based on the given information."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C23",
+    "claim_text": "Some users of creatine may experience gastrointestinal discomfort, such as cramps or diarrhea, particularly with high doses.",
+    "cited_refs": [
+      12
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "12",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is too sparse to assess the claim. It only mentions 'Adverse Effects of Creatine Supplementation' without any specific details. Therefore, it is not possible to verify whether gastrointestinal discomfort is discussed as an adverse effect in the document."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C24",
+    "claim_text": "Creatine supplementation has not been shown to adversely affect kidney function in healthy individuals.",
+    "cited_refs": [
+      13
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "Individual studies have indicated that creatine supplementation is generally well tolerated and not associated with clinically significant side effects.",
+    "evidence_reference": "13",
+    "evidence_span_start": 2025,
+    "evidence_span_end": 2177,
+    "reasoning": "The content discusses the general safety of creatine supplementation and mentions that it is not associated with clinically significant side effects. While it does not specifically mention kidney function, the implication is that no significant adverse effects, including on kidney function, have been observed in healthy individuals. Therefore, the claim is partially supported as it aligns with the general findings of safety in the document."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C25",
+    "claim_text": "Individuals with pre-existing kidney conditions should consult a healthcare provider before using creatine supplementation.",
+    "cited_refs": [
+      13
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "13",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not include any specific mention of individuals with pre-existing kidney conditions or recommendations for consulting a healthcare provider before using creatine supplementation. The content focuses on the general safety and side effects of creatine supplementation based on clinical trials and adverse event reports, but does not address specific advice for individuals with kidney conditions. Therefore, it is not possible to verify the claim based on the given content."
+  },
+  {
+    "question_id": "ODR-Q1",
+    "claim_id": "ODR-Q1-C26",
+    "claim_text": "A review of clinical trials found no significant differences in side effect prevalence between creatine users and placebo groups, indicating that creatine is well tolerated.",
+    "cited_refs": [
+      14
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.2,
+    "evidence_quote": "",
+    "evidence_reference": "14",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain any specific information or quotes from the document. It only includes a reference to a publication title and its metrics, without any details on the findings or discussions within the paper. Therefore, it is impossible to verify whether the claim about the safety and side effects of creatine supplementation is supported by the document."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C1",
+    "claim_text": "Intermittent fasting has gained significant popularity as a weight loss strategy.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C2",
+    "claim_text": "Intermittent fasting involves alternating periods of eating and fasting.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C3",
+    "claim_text": "Intermittent fasting promotes a reduction in caloric intake.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C4",
+    "claim_text": "Research indicates that intermittent fasting can lead to weight loss averaging between 7-11 pounds over ten weeks in various studies.",
+    "cited_refs": [
+      1,
+      3
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "A systematic review of 40 studies found that intermittent fasting was effective for weight loss, with a typical loss of 7-11 pounds over 10 weeks.",
+    "evidence_reference": "1",
+    "evidence_span_start": 3142,
+    "evidence_span_end": 3288,
+    "reasoning": "The content explicitly states that a systematic review found intermittent fasting to result in a typical weight loss of 7-11 pounds over 10 weeks, which directly supports the claim made."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C5",
+    "claim_text": "Intermittent fasting might not significantly enhance weight loss compared to continuous calorie restriction diets.",
+    "cited_refs": [
+      4
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "4",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is insufficient to assess the claim. The document title alone does not provide any specific information or conclusions about the effectiveness of intermittent fasting compared to continuous calorie restriction diets. Without additional content or context, it is impossible to verify the claim."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C6",
+    "claim_text": "Intermittent fasting may help preserve lean muscle mass while facilitating fat loss, especially when combined with resistance training and adequate protein intake.",
+    "cited_refs": [
+      5,
+      6
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "Intermittent fasting preserves muscle while losing fat. That finding holds across multiple controlled trials, a meta-analysis pooling 15 studies with 338 participants, and the largest long-term test ever conducted on the question.",
+    "evidence_reference": "5",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content discusses that intermittent fasting preserves muscle while losing fat, especially when combined with adequate protein intake and resistance training. This aligns with the claim that intermittent fasting may help preserve lean muscle mass while facilitating fat loss."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C7",
+    "claim_text": "Intermittent fasting can effectively reduce fat mass.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C9",
+    "claim_text": "Certain fasting regimens may lead to muscle loss if not balanced with proper nutrition and exercise.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C10",
+    "claim_text": "Intermittent fasting has been associated with improvements in metabolic flexibility and insulin sensitivity.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C11",
+    "claim_text": "Some studies point to reductions in fasting blood sugar levels and better lipid profiles, including lower levels of total cholesterol and low-density lipoprotein (LDL).",
+    "cited_refs": [
+      9,
+      10
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "9",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not include any specific information or quotes from the documents cited. Without access to the actual text from the American Journal of Clinical Nutrition or Diet Doctor, it is impossible to verify whether the claim about reductions in fasting blood sugar levels and better lipid profiles is supported by these sources. The titles alone do not provide enough information to assess the claim."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C12",
+    "claim_text": "The long-term metabolic benefits of intermittent fasting remain uncertain.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C13",
+    "claim_text": "Evidence suggests that intermittent fasting does not provide inherent metabolic advantages over standard calorie control.",
+    "cited_refs": [
+      11,
+      12
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "11",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not include any specific information or findings from the cited sources. Without access to the actual text or findings from these sources, it is impossible to verify whether they support or contradict the claim about intermittent fasting and its metabolic advantages over standard calorie control."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C14",
+    "claim_text": "Health improvements associated with intermittent fasting include reduced waist circumference and markers associated with metabolic syndrome.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C15",
+    "claim_text": "The long-term health outcomes of intermittent fasting for diverse populations are not well understood.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C17",
+    "claim_text": "Intermittent fasting offers benefits such as potential reduction in inflammation and improved cardiovascular health.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C18",
+    "claim_text": "The 16/8 method involves fasting for 16 hours and eating during an 8-hour window.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C20",
+    "claim_text": "Studies showed an average fat mass decrease of 6% while preserving fat-free mass for individuals on the 16/8 method.",
+    "cited_refs": [
+      17
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "17",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided discusses alternate-day fasting (ADF) and its effects on weight loss and body composition, but it does not mention the 16/8 method or provide specific data about a 6% decrease in fat mass while preserving fat-free mass. The claim about the 16/8 method is not supported by the content available, which focuses on ADF and not the specific intermittent fasting method mentioned in the claim."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C21",
+    "claim_text": "Individuals on the 16/8 method reported a manageable approach that can fit seamlessly into daily routines.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C22",
+    "claim_text": "The 16/8 method emphasizes the importance of nutrient-dense foods during eating periods.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C23",
+    "claim_text": "Potential drawbacks of the 16/8 method include hunger and irritability during fasting periods and challenges with long-term adherence.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C24",
+    "claim_text": "Certain populations may require medical advice before initiating the 16/8 fasting regimen.",
+    "cited_refs": [
+      18
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "18",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content is incomplete and does not contain any information regarding the 16/8 fasting regimen or the need for medical advice before starting it. Without the full text or relevant sections of the document, it is impossible to verify whether the claim is supported or not."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C25",
+    "claim_text": "Alternate-Day Fasting (ADF) alternates between days of normal eating and fasting or very low-calorie intake.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C26",
+    "claim_text": "Research indicates that Alternate-Day Fasting can lead to significant weight loss and improvements in body composition.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C27",
+    "claim_text": "A systematic review reported an average weight reduction of approximately 4.30 kg with Alternate-Day Fasting.",
+    "cited_refs": [
+      19,
+      20
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "19",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain any information about a systematic review or weight reduction results related to Alternate-Day Fasting. The text appears to be a bibliographic entry for a study on myocardial infarction and its impacts, which is unrelated to the claim about weight loss and intermittent fasting. Therefore, I cannot verify the claim based on the given content."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C28",
+    "claim_text": "Alternate-Day Fasting promotes improvements in cardiovascular health markers, such as reduced LDL levels and insulin sensitivity.",
+    "cited_refs": [
+      21
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "IER had similar effects to continuous energy restriction (CER) on weight loss, body composition and metabolic markers and in some studies it had better effects on e.g. insulin sensitivity and lipid profiles",
+    "evidence_reference": "21",
+    "evidence_span_start": 8758,
+    "evidence_span_end": 8964,
+    "reasoning": "The content discusses the effects of intermittent energy restriction (IER), which includes alternate-day fasting, on metabolic markers such as insulin sensitivity and lipid profiles. This supports the claim that alternate-day fasting can improve cardiovascular health markers. However, the claim specifically mentions LDL levels, which are not explicitly discussed in the provided content. Therefore, the claim is partially supported as the content aligns with the general idea but lacks specific mention of LDL levels."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C29",
+    "claim_text": "Alternate-Day Fasting creates substantial caloric deficits.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C30",
+    "claim_text": "Some studies reported concerns about muscle loss occurring during fasting days with Alternate-Day Fasting.",
+    "cited_refs": [
+      22
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "22",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not contain any information related to intermittent fasting, weight loss, or muscle loss. It appears to be about membrane protein purification, which is unrelated to the claim about fasting and muscle loss."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C32",
+    "claim_text": "User experiences with Alternate-Day Fasting vary, with some reporting remarkable weight loss and health benefits.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C33",
+    "claim_text": "Some users of Alternate-Day Fasting cite adherence challenges and the potential for overeating on non-fasting days.",
+    "cited_refs": [
+      24
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "24",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not contain any information about Alternate-Day Fasting, adherence challenges, or potential overeating on non-fasting days. It only briefly mentions the flexibility and adherence challenges of the 5:2 diet, which is a different form of intermittent fasting. Therefore, the claim is not supported by the content given."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C34",
+    "claim_text": "The 5:2 diet focuses on consuming a normal diet for five days a week and restricting calories to 500-600 for two days.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C35",
+    "claim_text": "Evidence shows that the 5:2 diet effectively reduces body weight and mitigates cardiovascular risk factors.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C37",
+    "claim_text": "The 5:2 diet may not provide additional benefits compared to traditional calorie restriction.",
+    "cited_refs": [
+      27
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "27",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is insufficient to assess the claim. It only includes a title and a source reference without any substantive information or findings from the Mayo Clinic. Therefore, I cannot verify whether the claim about the 5:2 diet and its comparison to traditional calorie restriction is supported or not."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C38",
+    "claim_text": "The flexibility in food choices of the 5:2 diet can appeal to many dieters.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C39",
+    "claim_text": "Participants of the 5:2 diet may struggle with adherence over time.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C40",
+    "claim_text": "Some participants of the 5:2 diet report experiencing mild side effects during fasting days.",
+    "cited_refs": [
+      28
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "28",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is insufficient to verify the claim. There is no detailed information or quotes from the document to assess whether it discusses the 5:2 diet or any side effects experienced by participants. Without access to the full text, it's impossible to determine if the claim is supported or not."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C41",
+    "claim_text": "The 5:2 diet emphasizes consuming nutrient-dense foods on non-fasting days to avoid nutritional deficiencies.",
+    "cited_refs": [
+      29
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.2,
+    "evidence_quote": "",
+    "evidence_reference": "29",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is insufficient to verify the claim. The title of the document suggests it discusses the effects of a 5:2 diet on metabolic health, but there is no specific information available about whether it emphasizes consuming nutrient-dense foods on non-fasting days to avoid nutritional deficiencies. Without access to the full text, I cannot confirm or deny the claim."
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C42",
+    "claim_text": "Alternate-Day Fasting generally offers more pronounced short-term weight loss compared to the 16/8 method and the 5:2 diet.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C43",
+    "claim_text": "Alternate-Day Fasting may lead to complications such as muscle loss.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C44",
+    "claim_text": "The 16/8 method yields similar results in fat loss while being easier for many to maintain.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C45",
+    "claim_text": "The 5:2 diet showcases effective weight loss yet may not outperform traditional calorie restriction.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C46",
+    "claim_text": "The 5:2 diet faces adherence challenges.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C47",
+    "claim_text": "Alternate-Day Fasting and the 16/8 method show marked improvements in metabolic health, including reductions in insulin resistance.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C48",
+    "claim_text": "The 5:2 diet offers health benefits but may attract individuals who appreciate dietary variety and flexibility.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C49",
+    "claim_text": "All intermittent fasting methods emphasize the need for careful nutrition to prevent deficiencies and adverse effects for specific populations.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C50",
+    "claim_text": "Intermittent fasting appears to be an effective weight loss strategy.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C51",
+    "claim_text": "The 16/8 method and Alternate-Day Fasting are particularly supported by research for their metabolic and weight loss benefits.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C52",
+    "claim_text": "The 5:2 diet provides flexibility and promotes overall health without significantly outperforming traditional calorie restriction.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q2",
+    "claim_id": "ODR-Q2-C53",
+    "claim_text": "Individuals considering intermittent fasting methods should be aware of potential risks, personal health conditions, and the importance of nutritional quality.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C1",
+    "claim_text": "Vitamin D is often referred to as the 'sunshine vitamin.'",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C2",
+    "claim_text": "Vitamin D plays a significant role in various physiological functions, including bone health and immune response.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C3",
+    "claim_text": "Recent research has illuminated vitamin D's potential influence on mental health, particularly regarding depression.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C4",
+    "claim_text": "Vitamin D is linked to the synthesis of neurotransmitters, such as serotonin and dopamine, which are crucial for mood regulation.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C6",
+    "claim_text": "Vitamin D has been shown to exert anti-inflammatory effects.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C7",
+    "claim_text": "Chronic inflammation has been associated with various mood disorders, including depression.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C8",
+    "claim_text": "By modulating the immune response, vitamin D may potentially alleviate neuroinflammation, contributing to improved mental health outcomes.",
+    "cited_refs": [
+      2,
+      8
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "vitamin D may well be one of modulator in the association between depression and inflammatory response through its effect on the immune system",
+    "evidence_reference": "2",
+    "evidence_span_start": 2625,
+    "evidence_span_end": 2767,
+    "reasoning": "The content discusses the role of vitamin D in modulating the immune system and its potential impact on depression through its effects on inflammation. This aligns with the claim that vitamin D may alleviate neuroinflammation, contributing to improved mental health outcomes."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C9",
+    "claim_text": "A genome-wide association study found a significant negative genetic correlation between vitamin D levels and depression.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "A significant negative genetic correlation between vitD and depression was evaluated using linkage disequilibrium score regression (LDSC)",
+    "evidence_reference": "1",
+    "evidence_span_start": 6776,
+    "evidence_span_end": 6913,
+    "reasoning": "The content explicitly states that a significant negative genetic correlation between vitamin D levels and depression was evaluated using linkage disequilibrium score regression (LDSC), which directly supports the claim."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C10",
+    "claim_text": "The genome-wide association study identified shared genetic variants associated with brain development that may influence mental health outcomes.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "Tissue- and cell-specific functional enrichment analyses revealed significant signals related to brain development, with distinct patterns emerging between fetal development and adulthood.",
+    "evidence_reference": "1",
+    "evidence_span_start": 1762,
+    "evidence_span_end": 1950,
+    "reasoning": "The content discusses the identification of shared genetic loci between vitamin D levels and depression, with specific mention of signals related to brain development. This supports the claim that shared genetic variants associated with brain development may influence mental health outcomes."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C11",
+    "claim_text": "Vitamin D is involved in the expression of neurotrophic factors, such as nerve growth factor (NGF), which support the growth and survival of neurons.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C12",
+    "claim_text": "The neuroprotective role of vitamin D suggests that adequate vitamin D levels may enhance brain health and resilience against depressive symptoms.",
+    "cited_refs": [
+      5,
+      12
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "5",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not include any information from which to assess the claim. There is no text or data available from the sources mentioned (Source 5 and Source 12) to verify whether they discuss the neuroprotective role of vitamin D or its relationship with depression. Without access to the actual content of these sources, it is impossible to determine if the claim is supported or not."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C13",
+    "claim_text": "Some studies assert that there is no causal relationship between vitamin D levels and depression.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C14",
+    "claim_text": "A review highlighted that vitamin D supplementation does not significantly reduce depressive symptoms.",
+    "cited_refs": [
+      1,
+      3
+    ],
+    "verdict": "CONTRADICTED",
+    "confidence": 0.9,
+    "evidence_quote": "Correspondingly, analyses of vitD supplementation have demonstrated a beneficial impact on depressive symptom severity",
+    "evidence_reference": "1",
+    "evidence_span_start": 5218,
+    "evidence_span_end": 5336,
+    "reasoning": "The content explicitly states that analyses of vitamin D supplementation have demonstrated a beneficial impact on depressive symptom severity, which directly contradicts the claim that vitamin D supplementation does not significantly reduce depressive symptoms."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C15",
+    "claim_text": "Randomized controlled trials have shown mixed results regarding vitamin D supplementation, with certain studies indicating minimal clinical benefits from supplementation in non-deficient populations.",
+    "cited_refs": [
+      4,
+      5,
+      10
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "Evidence from supplementation trials suggest a more robust therapeutic effect on subjects with major depression and concurrent vitamin D deficiency.",
+    "evidence_reference": "4",
+    "evidence_span_start": 3152,
+    "evidence_span_end": 3300,
+    "reasoning": "The content discusses the relationship between vitamin D and depression, noting that supplementation trials show more robust effects in those with major depression and vitamin D deficiency. However, it does not explicitly state that randomized controlled trials have shown mixed results or that there are minimal clinical benefits in non-deficient populations. The claim is partially supported as the content implies that benefits are more pronounced in deficient populations, suggesting less effect in non-deficient ones."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C16",
+    "claim_text": "Randomized controlled trials have shown significant improvements in depressive symptoms in those with pre-existing vitamin D deficiencies.",
+    "cited_refs": [
+      4,
+      5,
+      10
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.7,
+    "evidence_quote": "Evidence from supplementation trials suggest a more robust therapeutic effect on subjects with maj",
+    "evidence_reference": "4",
+    "evidence_span_start": 3152,
+    "evidence_span_end": 3250,
+    "reasoning": "The content discusses the relationship between vitamin D and depression and mentions that supplementation trials suggest a therapeutic effect, particularly in subjects with major depression. However, it does not explicitly state that randomized controlled trials have shown significant improvements specifically in those with pre-existing vitamin D deficiencies. The claim is partially supported as the content implies a positive effect of vitamin D supplementation on depression, but lacks the specific detail about pre-existing deficiencies and the nature of the trials."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C17",
+    "claim_text": "Older adults, particularly those above 65, have shown higher rates of both vitamin D deficiency and depression.",
+    "cited_refs": [
+      2,
+      12
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "The relationship between depression and vitamin D deficiency has also been investigated in the older population and/or in subjects with medical comorbidities. Several studies showed a significant relationship between vitamin D deficiency and late-life depression in northern latitudes.",
+    "evidence_reference": "2",
+    "evidence_span_start": 11379,
+    "evidence_span_end": 11664,
+    "reasoning": "The content discusses the relationship between vitamin D deficiency and depression in older adults, specifically mentioning studies that show a significant relationship between vitamin D deficiency and late-life depression. This supports the claim that older adults, particularly those above 65, have shown higher rates of both vitamin D deficiency and depression."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C21",
+    "claim_text": "Individuals living in high-latitude regions, particularly above the 37th parallel, face greater challenges regarding vitamin D synthesis due to reduced sunlight exposure.",
+    "cited_refs": [
+      7,
+      12,
+      15
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not contain any information or text that can be assessed. The sources are listed without any accompanying text or data, making it impossible to verify the claim about vitamin D synthesis challenges in high-latitude regions. Without access to the actual content of these sources, the claim cannot be evaluated."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C22",
+    "claim_text": "Seasonal variations exacerbate vitamin D synthesis issues, leading to increased depression rates among populations in high-latitude regions during winter months.",
+    "cited_refs": [
+      7,
+      12,
+      15
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not contain any information or text that can be assessed. Without any actual content from the sources, it is impossible to verify whether the claim about seasonal variations, vitamin D synthesis, and depression rates is supported or not. The claim cannot be evaluated based on the given information."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C23",
+    "claim_text": "Minority populations, particularly non-Hispanic Black and Hispanic individuals, exhibit significantly higher rates of vitamin D deficiency and associated depression.",
+    "cited_refs": [
+      7,
+      14
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not include any information or text that can be assessed to verify the claim. Without access to the actual content of Source 7 or Source 14, it is impossible to determine whether the claim about minority populations, vitamin D deficiency, and depression is supported. The claim cannot be verified based on the given information."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C24",
+    "claim_text": "Differences in skin pigmentation, dietary habits, and cultural practices contribute to disparities in vitamin D deficiency and depression among minority populations.",
+    "cited_refs": [
+      7,
+      14
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not contain any information or text that can be assessed. Without access to the actual content of Source 7 or Source 14, it is impossible to verify whether the claim about skin pigmentation, dietary habits, and cultural practices contributing to disparities in vitamin D deficiency and depression among minority populations is supported. Therefore, the claim is unverified based on the available information."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C25",
+    "claim_text": "Factors such as obesity, sedentary lifestyle, poor nutrition, and socio-economic status can impede vitamin D synthesis and increase vulnerability to depression.",
+    "cited_refs": [
+      8,
+      14
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.7,
+    "evidence_quote": "several factors can reduce its syntheses in the epidermis, such as sunscreen use, skin pigmentation, aging, geographical latitude, season, and time of day",
+    "evidence_reference": "8",
+    "evidence_span_start": 11544,
+    "evidence_span_end": 11698,
+    "reasoning": "The content discusses factors that can reduce vitamin D synthesis, such as sunscreen use, skin pigmentation, aging, geographical latitude, season, and time of day. However, it does not explicitly mention obesity, sedentary lifestyle, poor nutrition, or socio-economic status as factors impeding vitamin D synthesis or increasing vulnerability to depression. Therefore, while the claim is related to the topic of vitamin D synthesis, it includes specifics not covered in the provided content."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C26",
+    "claim_text": "Chronic health conditions further compound the risks of vitamin D deficiency and depression.",
+    "cited_refs": [
+      7,
+      13
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not include any information or text from which to verify the claim. Without access to the actual text or data from the sources mentioned, it is impossible to assess whether the claim about chronic health conditions compounding the risks of vitamin D deficiency and depression is supported. The content is too sparse to make a determination."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C29",
+    "claim_text": "Dosing regimens for vitamin D supplementation often propose between 2000 to 4000 IU daily for optimal benefits, particularly in those with low baseline vitamin levels.",
+    "cited_refs": [
+      9,
+      12
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "9",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not include any information from which to verify the claim about dosing regimens for vitamin D supplementation. The claim is attributed to a source labeled as 'Source 9' or 'Source 12', but no actual content from these sources is provided. Therefore, it is impossible to assess whether the claim is supported or not."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C30",
+    "claim_text": "Evidence suggests that vitamin D may be particularly beneficial as an adjunctive treatment for major depressive disorder (MDD) when combined with traditional antidepressant therapies.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C31",
+    "claim_text": "A randomized clinical trial found improvements in depressive symptoms among patients receiving a high-dose vitamin D supplement alongside their antidepressant medication.",
+    "cited_refs": [
+      8,
+      12
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.7,
+    "evidence_quote": "some studies have shown that vitamin D supplementation may improve the clinical depressive state",
+    "evidence_reference": "8",
+    "evidence_span_start": 9380,
+    "evidence_span_end": 9476,
+    "reasoning": "The content discusses the potential benefits of vitamin D supplementation in improving depressive symptoms, which aligns with the claim that vitamin D can aid in treating depression. However, it does not specifically mention a randomized clinical trial or the combination with antidepressant medication, which are key specifics in the claim. Therefore, the claim is only partially supported by the content."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C32",
+    "claim_text": "Health practitioners are encouraged to incorporate routine vitamin D screening and recommendations for supplementation, especially in high-risk populations.",
+    "cited_refs": [
+      4,
+      10,
+      12
+    ],
+    "verdict": "CONTRADICTED",
+    "confidence": 1.0,
+    "evidence_quote": "the evidence is not strong enough to recommend universal supplementation in depression.",
+    "evidence_reference": "4",
+    "evidence_span_start": 3386,
+    "evidence_span_end": 3473,
+    "reasoning": "The content explicitly states that the evidence is not strong enough to recommend universal vitamin D supplementation in depression, which contradicts the claim that health practitioners are encouraged to incorporate routine vitamin D screening and recommendations for supplementation."
+  },
+  {
+    "question_id": "ODR-Q3",
+    "claim_id": "ODR-Q3-C33",
+    "claim_text": "Addressing vitamin D deficiencies may improve mental health outcomes and reduce the burden of depression in vulnerable communities.",
+    "cited_refs": [
+      4,
+      10,
+      12
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "Evidence from supplementation trials suggest a more robust therapeutic effect on subjects with major depression and concurrent vitamin D deficiency appears to be a potential step forward in identifying subgroups who may maximally benefit from this approach.",
+    "evidence_reference": "4",
+    "evidence_span_start": 3152,
+    "evidence_span_end": 3409,
+    "reasoning": "The content discusses the relationship between vitamin D and depression, noting that supplementation trials show a therapeutic effect on subjects with major depression and vitamin D deficiency. This implies that addressing vitamin D deficiencies could improve mental health outcomes, aligning with the claim. However, the content does not explicitly state that this will reduce the burden of depression in vulnerable communities, hence the partial support."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C1",
+    "claim_text": "Omega-3 fatty acids are found predominantly in fish oil.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C2",
+    "claim_text": "Omega-3 fatty acids have long been promoted for their potential cardiovascular benefits.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C3",
+    "claim_text": "A systematic review and meta-analysis in 2021 encompassing 38 randomized controlled trials with 149,051 participants indicated that omega-3 fatty acids are linked to significant reductions in cardiovascular mortality with a risk ratio of 0.93.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "In 149,051 participants, omega-3 FA was associated with reducing cardiovascular mortality (RR, 0.93 [0.88-0.98]; p = 0.01)",
+    "evidence_reference": "1",
+    "evidence_span_start": 4947,
+    "evidence_span_end": 5069,
+    "reasoning": "The claim is directly supported by the content, which states that omega-3 fatty acids were associated with a reduction in cardiovascular mortality with a risk ratio of 0.93 in a meta-analysis of 38 randomized controlled trials involving 149,051 participants."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C4",
+    "claim_text": "Omega-3 fatty acids are linked to significant reductions in non-fatal myocardial infarction with a risk ratio of 0.87.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "omega-3 FA was associated with reducing cardiovascular mortality (RR, 0.93 [0.88-0.98]; p = 0.01), non-fatal myocardial infarction (MI) (RR, 0.87 [0.81\u20130.93]; p = 0.0001)",
+    "evidence_reference": "1",
+    "evidence_span_start": 4972,
+    "evidence_span_end": 5142,
+    "reasoning": "The content explicitly states that omega-3 fatty acids are associated with a reduction in non-fatal myocardial infarction with a risk ratio of 0.87, directly supporting the claim."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C5",
+    "claim_text": "Omega-3 fatty acids are linked to significant reductions in coronary heart disease events with a risk ratio of 0.91.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "omega-3 FA was associated with reducing...coronary heart disease events (CHD) (RR, 0.91 [0.87\u20130.96]; p = 0.0002)",
+    "evidence_reference": "1",
+    "evidence_span_start": 4972,
+    "evidence_span_end": 5084,
+    "reasoning": "The content explicitly states that omega-3 fatty acids are associated with a reduction in coronary heart disease events with a risk ratio of 0.91, which directly supports the claim."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C6",
+    "claim_text": "Individuals with existing heart conditions may derive notable benefits from EPA and DHA supplementation.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not include any specific information or findings from the study. It only lists the authors and their affiliations, without any details on the study's conclusions or data regarding the effects of omega-3 supplementation on individuals with existing heart conditions. Therefore, it is impossible to verify the claim based on the given content."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C7",
+    "claim_text": "Omega-3 fatty acids are associated with an increased risk of atrial fibrillation with a risk ratio of 1.26.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "Omega-3 FA increased incident AF (RR, 1.26 [1.08\u20131.48]).",
+    "evidence_reference": "1",
+    "evidence_span_start": 5675,
+    "evidence_span_end": 5731,
+    "reasoning": "The claim that omega-3 fatty acids are associated with an increased risk of atrial fibrillation with a risk ratio of 1.26 is directly supported by the content. The document explicitly states that omega-3 fatty acids increased the incidence of atrial fibrillation with a risk ratio of 1.26."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C8",
+    "claim_text": "A prospective cohort study revealed that regular fish oil supplement users had a 13% higher risk of developing atrial fibrillation compared to non-users.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.2,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain any information about omega-3 supplementation, cardiovascular health, or the specific claim regarding fish oil supplement users and atrial fibrillation. The content only includes publication details and metrics, which are unrelated to the claim. Therefore, it is impossible to verify the claim based on the given content."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C9",
+    "claim_text": "Regular fish oil supplement users had a 5% increased risk of stroke compared to non-users.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.2,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain any information or data related to omega-3 supplementation, fish oil, or its effects on cardiovascular health or stroke risk. The content only includes publication details and metrics, which are unrelated to the claim. Therefore, it is impossible to verify the claim based on the given content."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C10",
+    "claim_text": "In individuals consuming a diet low in fish, omega-3 supplementation has been shown to reduce the risk of major cardiovascular events by 19%.",
+    "cited_refs": [
+      4
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "when researchers analyzed the data further and looked at those who consumed higher amounts of fish versus lower amounts of fish before taking supplements, they found that higher omega-3s were linked to a statistically significant 19% reduction in major CVD events.",
+    "evidence_reference": "4",
+    "evidence_span_start": 2252,
+    "evidence_span_end": 2516,
+    "reasoning": "The content explicitly states that in individuals with lower fish consumption, omega-3 supplementation was linked to a 19% reduction in major cardiovascular events, directly supporting the claim."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C11",
+    "claim_text": "The American Heart Association recommends about 0.3-0.5 grams of EPA and DHA daily for individuals without cardiovascular disease.",
+    "cited_refs": [
+      7
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is labeled as '[7] Source 7' without any actual text or information. Therefore, it is impossible to verify whether the claim about the American Heart Association's recommendation on omega-3 supplementation is supported by the content of Source 7."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C12",
+    "claim_text": "The American Heart Association emphasizes dietary intake of omega-3s over supplementation for individuals without cardiovascular disease.",
+    "cited_refs": [
+      7
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is labeled as '[7] Source 7' without any actual text or information from which to assess the claim. Therefore, it is impossible to verify whether the claim is supported, contradicted, or not addressed at all in the document."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C13",
+    "claim_text": "The VITAL trial noted no significant overall reduction in cardiovascular disease events from omega-3 supplementation in older adults.",
+    "cited_refs": [
+      4
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "The primary findings, published in the New England Journal of Medicine in 2018, showed that taking 1 gram of omega-3 supplements daily did not significantly lower the overall risk of major cardiovascular disease (CVD) events - a combined measure of heart attacks, stroke, and CVD death.",
+    "evidence_reference": "4",
+    "evidence_span_start": 1960,
+    "evidence_span_end": 2246,
+    "reasoning": "The content explicitly states that the VITAL trial found no significant reduction in the overall risk of major cardiovascular disease events from omega-3 supplementation, which directly supports the claim."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C14",
+    "claim_text": "A subgroup in the VITAL trial exhibited benefits from omega-3 supplementation.",
+    "cited_refs": [
+      4
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "showed that three groups seemed to get the greatest benefit from omega-3s in reducing heart attack risk: people with low fish intake, those with two or more risk factors for heart disease, and African Americans.",
+    "evidence_reference": "4",
+    "evidence_span_start": 2750,
+    "evidence_span_end": 2961,
+    "reasoning": "The content explicitly states that certain subgroups in the VITAL trial, such as people with low fish intake, those with two or more risk factors for heart disease, and African Americans, exhibited benefits from omega-3 supplementation in terms of reducing heart attack risk. This directly supports the claim that a subgroup in the VITAL trial exhibited benefits from omega-3 supplementation."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C15",
+    "claim_text": "A study from Scientific Reports indicated a positive impact on electrocardiographic parameters in older adults taking omega-3s.",
+    "cited_refs": [
+      5
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "In this randomized controlled trial, supplementation with omega-3 FA (1 g of EPA + DHA per day) caused several nominally significant changes in ECG parameters over 2-years of follow-up.",
+    "evidence_reference": "5",
+    "evidence_span_start": 11073,
+    "evidence_span_end": 11258,
+    "reasoning": "The content describes a study that found omega-3 supplementation led to significant changes in electrocardiographic parameters, supporting the claim of a positive impact on these parameters in older adults."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C16",
+    "claim_text": "Omega-3 supplementation suggests improved heart function metrics in older adults.",
+    "cited_refs": [
+      5
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "Omega-3 FA supplementation resulted in prolongation of the PR interval and one measure of heart rate variability, RMSSD; both of which are",
+    "evidence_reference": "5",
+    "evidence_span_start": 12612,
+    "evidence_span_end": 12750,
+    "reasoning": "The content discusses the effects of omega-3 supplementation on heart function metrics such as the PR interval and heart rate variability, which are related to heart function. However, it does not specifically mention 'improved heart function metrics in older adults' as the claim states. The evidence suggests some positive changes in heart function metrics, but the claim adds specifics about 'older adults' that are not directly addressed in the content."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C17",
+    "claim_text": "A recent review reports that omega-3s can lower hospital readmission rates for heart failure in older adults.",
+    "cited_refs": [
+      6
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "6",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content of Source 6 is not provided, so I cannot verify whether it supports the claim about omega-3s lowering hospital readmission rates for heart failure in older adults. Without access to the actual text, it's impossible to assess the claim's accuracy."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C18",
+    "claim_text": "A study published in the Journal of the American Heart Association indicated that approximately 3 grams daily of omega-3 fatty acids could lead to significant reductions in both systolic and diastolic blood pressure.",
+    "cited_refs": [
+      12
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "12",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is labeled as '[12] Source 12' without any actual text or details from the study. Therefore, it is impossible to verify whether the claim about omega-3 fatty acids and blood pressure is supported by the content. Without access to the specific details or findings of the study, no assessment can be made."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C19",
+    "claim_text": "A systematic review in Frontiers in Nutrition revealed average reductions of 1.19 mmHg in systolic and 0.91 mmHg in diastolic pressure from omega-3 supplementation.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not contain any information about omega-3 supplementation or its effects on blood pressure or cardiovascular health. The claim references a systematic review in 'Frontiers in Nutrition,' but the content provided is from 'Frontiers in Pharmacology,' which does not mention omega-3 or blood pressure. Therefore, the claim is not supported by the content given."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C20",
+    "claim_text": "Blood pressure reductions from omega-3 supplementation are particularly significant for older adults and those already at risk of hypertension.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.2,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain any information or details about omega-3 supplementation, blood pressure, or its effects on older adults and those at risk of hypertension. The content only includes publication and citation metrics, which are unrelated to the claim. Therefore, it is impossible to verify the claim based on the given content."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C21",
+    "claim_text": "Clinical trials consistently show more profound effects of omega-3 supplementation in hypertensive populations.",
+    "cited_refs": [
+      12
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "12",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is insufficient to assess the claim. There is no information available from the document to verify whether it discusses the effects of omega-3 supplementation on hypertensive populations or cardiovascular health in general."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C22",
+    "claim_text": "With a dosage of around 3 grams per day, reductions in systolic blood pressure of approximately 4.5 mmHg were noted among those with hypertension.",
+    "cited_refs": [
+      12
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "12",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is insufficient to assess the claim. There is no information available from the document to verify whether it discusses the effects of omega-3 supplementation on systolic blood pressure or cardiovascular health."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C25",
+    "claim_text": "In healthy adults, omega-3 fatty acids could lower blood pressure levels even in normotensive individuals.",
+    "cited_refs": [
+      16
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "omega-3 lowered blood pressure in participants without hypertension",
+    "evidence_reference": "16",
+    "evidence_span_start": 1534,
+    "evidence_span_end": 1601,
+    "reasoning": "The content discusses a study where omega-3 supplementation lowered blood pressure in participants without hypertension, which aligns with the claim that omega-3 could lower blood pressure levels even in normotensive individuals. However, the study was conducted on overweight adults with abdominal obesity, not specifically 'healthy adults,' which makes the claim only partially supported."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C26",
+    "claim_text": "Standard dietary recommendations still favor obtaining omega-3s through fish and natural dietary sources rather than relying strictly on supplementation.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C27",
+    "claim_text": "Substantial evidence indicates that omega-3 supplementation can improve overall heart function in older adults.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C29",
+    "claim_text": "The specific use of EPA and DHA has shown benefits in improving ejection fractions and exercise capacity in older adults.",
+    "cited_refs": [
+      9
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "9",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content of Source 9 is not provided, so I cannot verify whether it supports the claim about EPA and DHA improving ejection fractions and exercise capacity in older adults. Without access to the actual text, it's impossible to assess the claim's accuracy."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C31",
+    "claim_text": "A meta-analysis in the American Journal of Clinical Nutrition showed that omega-3 supplementation resulted in a considerable reduction in major adverse cardiovascular events for older adults with heart failure.",
+    "cited_refs": [
+      10
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "Moderate evidence showed that the use of omega-3 fatty acids may reduce the risk of major cardiovascular events, myocardial infarction, and cardiovascular death.",
+    "evidence_reference": "10",
+    "evidence_span_start": 5241,
+    "evidence_span_end": 5402,
+    "reasoning": "The content discusses the potential benefits of omega-3 fatty acids in reducing major cardiovascular events, which aligns with the claim that omega-3 supplementation can reduce adverse cardiovascular events. However, the content does not specifically mention older adults with heart failure, nor does it describe the reduction as 'considerable.' Therefore, while the general idea of cardiovascular benefit is supported, the specific details of the claim are not fully addressed."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C32",
+    "claim_text": "Some trials indicated an inconsistent relationship between omega-3 supplementation and major cardiovascular outcomes.",
+    "cited_refs": [
+      11
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "The aforementioned RCTs and meta-analysis results were inconsistent, posing a challenge to the clinical application of omega-3 FA supplementation to prevent cardiovascular events.",
+    "evidence_reference": "11",
+    "evidence_span_start": 10080,
+    "evidence_span_end": 10259,
+    "reasoning": "The content explicitly mentions that the results of RCTs and meta-analyses regarding omega-3 supplementation and cardiovascular events were inconsistent. This directly supports the claim that some trials indicated an inconsistent relationship between omega-3 supplementation and major cardiovascular outcomes."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C33",
+    "claim_text": "Experts generally agree that the optimal dosage for cardiovascular benefits of omega-3s resides between 0.8 to 1.2 grams per day.",
+    "cited_refs": [
+      6
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "6",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content of Source 6 is not provided, so I cannot verify whether it supports, contradicts, or is unrelated to the claim about the optimal dosage of omega-3s for cardiovascular benefits. Without access to the actual text, it's impossible to assess the claim's accuracy or relevance."
+  },
+  {
+    "question_id": "ODR-Q4",
+    "claim_id": "ODR-Q4-C34",
+    "claim_text": "Increased intake of omega-3s appears beneficial for those at elevated risk for cardiovascular disease or with existing conditions.",
+    "cited_refs": [
+      6
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "6",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content of Source 6 is not provided, so I cannot verify whether it supports the claim about omega-3 supplementation and cardiovascular health. Without access to the actual text, it's impossible to determine if the claim is supported, partially supported, or contradicted by the source."
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C1",
+    "claim_text": "Probiotics are live microorganisms that confer health benefits when consumed in adequate amounts.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C2",
+    "claim_text": "Probiotics have gained significant attention for their potential to enhance gut health, particularly concerning digestive disorders, immune function, and the overall balance of the gut microbiome.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C3",
+    "claim_text": "Probiotics play a crucial role in maintaining the natural balance of microorganisms within the digestive tract.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C4",
+    "claim_text": "Probiotics may alleviate various gastrointestinal issues, including irritable bowel syndrome (IBS), lactose intolerance, and antibiotic-associated diarrhea.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C5",
+    "claim_text": "The gut is home to approximately 80% of the body's immune cells, emphasizing the importance of a balanced gut microbiome for local and systemic immunity.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "Up to 80% of your immune cells are found in your gut, and the balance of your gut microbiome plays an important role in both local intestinal immunity and systemic immunity.",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content explicitly states that up to 80% of immune cells are located in the gut and emphasizes the importance of the gut microbiome for both local and systemic immunity, directly supporting the claim."
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C6",
+    "claim_text": "The effectiveness of probiotics can vary significantly depending on the specific strains used, their dosage, and the individual health context.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C7",
+    "claim_text": "Notable probiotic strains including Lactobacillus and Bifidobacterium have been extensively evaluated for their health benefits.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C8",
+    "claim_text": "Probiotics have demonstrated effectiveness in treating irritable bowel syndrome (IBS), a common gastrointestinal disorder characterized by abdominal pain, bloating, and altered bowel habits.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C9",
+    "claim_text": "A systematic review and meta-analysis revealed that certain probiotic strains, especially Bifidobacterium longum 35624 and Lactobacillus rhamnosus GG, can significantly reduce symptoms such as abdominal pain and bloating in IBS patients.",
+    "cited_refs": [
+      7
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.2,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content is too sparse and lacks specific details about the effects of probiotics, specific strains, or their impact on IBS symptoms. Without more information, it's impossible to verify the claim about the benefits of Bifidobacterium longum 35624 and Lactobacillus rhamnosus GG on IBS symptoms."
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C10",
+    "claim_text": "Recent clinical trials have shown that probiotic supplementation can lead to notable improvements in IBS symptoms and quality of life, particularly when using high doses or multi-strain formulations.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.3,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is incomplete and does not contain any specific information or quotes that can be used to verify the claim about the benefits of probiotics for IBS symptoms and quality of life. Without access to the full text or more detailed information, it is impossible to determine whether the claim is supported or not."
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C11",
+    "claim_text": "Probiotics show promise in managing conditions such as Ulcerative Colitis and Crohn\u2019s Disease.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C12",
+    "claim_text": "Evidence suggests that specific probiotic strains can help induce and maintain remission in ulcerative colitis patients, significantly reducing relapse rates compared to placebo groups.",
+    "cited_refs": [
+      11
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "Probiotics significantly reduced relapse risk compared to placebo (RR\u2009=\u20090.55; 95% CI, 0.22\u20130.88), but showed no significant effect compared to mesalazine.",
+    "evidence_reference": "11",
+    "evidence_span_start": 4971,
+    "evidence_span_end": 5125,
+    "reasoning": "The content supports the claim that probiotics can reduce relapse rates in ulcerative colitis patients compared to placebo, which aligns with the claim. However, the content does not specifically mention 'inducing and maintaining remission' or 'specific probiotic strains,' which are parts of the claim. Therefore, the claim is only partially supported."
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C13",
+    "claim_text": "Probiotics are documented to prevent antibiotic-associated diarrhea in the context of antibiotic use.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C14",
+    "claim_text": "Multiple studies and systematic reviews indicate that probiotic strains like Lactobacillus and Bifidobacterium can mitigate the disruption of gut microbiota caused by antibiotics, reducing the incidence of diarrhea.",
+    "cited_refs": [
+      15
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.0,
+    "evidence_quote": "",
+    "evidence_reference": "15",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is incomplete and does not contain any information that can be assessed to verify the claim. Without the full text or additional context, it is impossible to determine whether the claim about probiotics mitigating gut microbiota disruption and reducing diarrhea is supported."
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C15",
+    "claim_text": "Probiotics have been implicated in enhancing immune responses.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C16",
+    "claim_text": "Probiotics modulate the activity of immune cells, including natural killer (NK) cells and T cells, which play defense roles against infections.",
+    "cited_refs": [
+      6
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "Probiotics have in clinical studies been suggested to promote a healthy immune response",
+    "evidence_reference": "6",
+    "evidence_span_start": 141,
+    "evidence_span_end": 228,
+    "reasoning": "The content discusses the role of probiotics in promoting a healthy immune response and mentions specific strains that support immune function. However, it does not specifically mention the modulation of natural killer (NK) cells and T cells. The claim is partially supported as the general idea of probiotics supporting immune defense is present, but the specific details about NK and T cells are not explicitly covered."
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C17",
+    "claim_text": "Clinical studies indicate that probiotics can improve intestinal barrier function, enhancing the production of immunoglobulin A (IgA) and promoting anti-inflammatory cytokines such as IL-10.",
+    "cited_refs": [
+      9
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.2,
+    "evidence_quote": "",
+    "evidence_reference": "9",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content is insufficient to verify the claim. It only includes a reference to a publication in 'Frontiers in Immunology' without any specific details or findings related to probiotics, intestinal barrier function, immunoglobulin A (IgA), or cytokines such as IL-10. Without more detailed content, it's impossible to assess whether the claim is supported."
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C18",
+    "claim_text": "Lactobacillus rhamnosus GG has been associated with reduced upper respiratory tract infections in children, emphasizing its role in bolstering immune defenses.",
+    "cited_refs": [
+      10
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "Randomized, double-blinded, placebo-controlled trials suggest that the strains (alone or in combination) may have significant effects on endpoints such as promoting the immune response, and reducing incidence, duration and severity of respiratory tract infections and flu-like symptoms in children and adults.",
+    "evidence_reference": "10",
+    "evidence_span_start": 712,
+    "evidence_span_end": 1021,
+    "reasoning": "The content explicitly states that Lactobacillus rhamnosus GG (LGG\u00ae) is associated with reducing the incidence, duration, and severity of respiratory tract infections, which supports the claim that it bolsters immune defenses and reduces upper respiratory tract infections in children."
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C19",
+    "claim_text": "Probiotics are known to restore the composition of gut microbiota, which can be disrupted due to various factors such as antibiotic use, poor diet, and stress.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C20",
+    "claim_text": "Studies illustrate that certain strains of probiotics can increase beneficial bacteria and help restore a healthy microbial ecosystem.",
+    "cited_refs": [
+      3
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "3",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is incomplete and does not contain any specific information or quotes that can be used to verify the claim. Without access to the full text of the document, it is impossible to determine whether the claim about probiotics increasing beneficial bacteria and restoring a healthy microbial ecosystem is supported by the document."
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C21",
+    "claim_text": "The diversity of gut microbiota is essential for its functionality and health benefits.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ODR-Q5",
+    "claim_id": "ODR-Q5-C22",
+    "claim_text": "Some meta-analyses have indicated that probiotics may not significantly enhance microbiota diversity in healthy individuals, suggesting that their benefits can be more pronounced in those with pre-existing dysbiosis.",
+    "cited_refs": [
+      21
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "Despite the uncertainty surrounding probiotics\u2019 effects on the gut microbiome in healthy individuals, these supplements are often recommended to promote overall gut health and well-being. Many consumers believe that probiotics can help restore the balance and diversity of the gut microbiota, especially after disruptions caused by antibiotic use or dietary changes. However, the scientific evidence supporting this claim remains inconclusive.",
+    "evidence_reference": "21",
+    "evidence_span_start": 4334,
+    "evidence_span_end": 4777,
+    "reasoning": "The content discusses the inconclusive evidence regarding the impact of probiotics on gut microbiota diversity in healthy individuals, aligning with the claim that probiotics may not significantly enhance microbiota diversity in such populations. This supports the idea that benefits might be more pronounced in those with pre-existing dysbiosis."
+  }
+]

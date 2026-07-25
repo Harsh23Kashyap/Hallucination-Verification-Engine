@@ -1,0 +1,9 @@
+{
+  "total_claims": 151,
+  "verifiable": 45,
+  "supported": 38,
+  "not_supported": 7,
+  "hallucination_rate": 0.15555555555555556,
+  "note": "Only includes the 7 hallucination cases that were manually verified live in-browser with Ctrl+F. All other ambiguous cases removed.",
+  "verified_count": 7
+}

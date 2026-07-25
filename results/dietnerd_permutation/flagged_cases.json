@@ -1,0 +1,807 @@
+[
+  {
+    "type": "citation",
+    "question_id": "PERM-DN1",
+    "claim_id": "PERM-DN1-C10",
+    "claim_text": "Creatine supplementation aids in post-exercise recovery.",
+    "cited_refs": [
+      7
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not mention creatine supplementation or its effects on post-exercise recovery. The text focuses on the Mediterranean diet, omega-3 and omega-6 fatty acids, and other dietary components related to cardiovascular and cognitive health. There is no discussion of creatine or its impact on muscle strength, exercise performance, or recovery."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN1",
+    "claim_id": "PERM-DN1-C11",
+    "claim_text": "Creatine supplementation may help reduce the risk of injuries and assist in rehabilitation.",
+    "cited_refs": [
+      7
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not mention creatine supplementation or its effects on muscle strength, exercise performance, injury risk, or rehabilitation. The text focuses on the Mediterranean diet, omega-3 and omega-6 fatty acids, and other dietary components related to cardiovascular and cognitive health. Therefore, the claim about creatine supplementation is not supported by the provided content."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN1",
+    "claim_id": "PERM-DN1-C12",
+    "claim_text": "Creatine supplementation can be particularly beneficial for women, especially pre- and post-menopause, by improving strength, exercise performance, and possibly bone health when combined with resistance training.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss creatine supplementation or its specific effects on women, including pre- and post-menopausal women. The text focuses on the importance of multiple micronutrients and their effects on energy metabolism and cognitive function, but it does not mention creatine or its benefits related to muscle strength, exercise performance, or bone health. Therefore, the claim attributed to the document is not supported by the content provided."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN2",
+    "claim_id": "PERM-DN2-C7",
+    "claim_text": "A randomized controlled trial comparing intermittent fasting 16:8 and intermittent fasting 14:10 with a control group demonstrated significantly greater weight loss in the intermittent fasting groups.",
+    "cited_refs": [
+      10
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "10",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not contain any information about intermittent fasting, weight loss, or metabolic health. It focuses entirely on the effects of caffeine consumption on sleep. Therefore, the claim about a randomized controlled trial comparing intermittent fasting methods is not supported by the content given."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN2",
+    "claim_id": "PERM-DN2-C10",
+    "claim_text": "A randomized controlled trial reported significant improvements in glucose and lipid profiles among obese diabetic patients following intermittent fasting protocols.",
+    "cited_refs": [
+      10
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "10",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not contain any information about intermittent fasting, glucose and lipid profiles, or metabolic outcomes related to obesity and type 2 diabetes patients. Instead, it discusses the effects of caffeine on sleep. Therefore, the claim attributed to the document is not supported by the content."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN2",
+    "claim_id": "PERM-DN2-C13",
+    "claim_text": "Intermittent fasting activates adaptive cellular stress responses, which enhance mitochondrial health, DNA repair, and autophagy.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided discusses the impact of folic acid fortification on health, specifically related to neural tube defects, anemia, homocysteine levels, cardiovascular disease risk, and potential adverse effects. There is no mention of intermittent fasting, cellular stress responses, mitochondrial health, DNA repair, or autophagy. Therefore, the claim attributed to this content is not supported as it is unrelated to the topics discussed in the document."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN2",
+    "claim_id": "PERM-DN2-C14",
+    "claim_text": "Intermittent fasting promotes stem cell-based regeneration and long-lasting metabolic effects.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided discusses the impact of folic acid fortification on health, specifically related to neural tube defects, anemia, homocysteine levels, cardiovascular disease risk, and potential adverse effects. There is no mention of intermittent fasting, stem cell-based regeneration, or metabolic effects in the provided text. Therefore, the claim attributed to the document is not supported by the content."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN2",
+    "claim_id": "PERM-DN2-C15",
+    "claim_text": "The effects of intermittent fasting collectively contribute to improved physiological function and disease resistance.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss intermittent fasting or its effects on physiological function and disease resistance. Instead, it focuses on the impact of folic acid fortification on health outcomes. Therefore, the claim attributed to the document is not supported by the content."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN5",
+    "claim_id": "PERM-DN5-C2",
+    "claim_text": "Higher intake or circulating levels of eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) are associated with a reduced risk of cardiovascular events.",
+    "cited_refs": [
+      1,
+      2,
+      6
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain any information about the association between higher intake or circulating levels of eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) and a reduced risk of cardiovascular events. The sections related to omega-3 fatty acids mention their potential benefits for cardiovascular health and guidelines recommending their intake, but they also note that recent trials have not confirmed these benefits. There is no specific mention of the association claimed, nor any detailed discussion of EPA and DHA levels in relation to cardiovascular events."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN5",
+    "claim_id": "PERM-DN5-C4",
+    "claim_text": "Omega-3 fatty acids influence the gut-heart axis, ion channels, and autonomic function through vagal tone enhancement.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is entirely focused on caffeine consumption and its effects on performance, sleep, and withdrawal, with no mention of omega-3 fatty acids, the gut-heart axis, ion channels, autonomic function, or vagal tone enhancement. Therefore, the claim attributed to the document is not supported by the content."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN5",
+    "claim_id": "PERM-DN5-C7",
+    "claim_text": "High-dose eicosapentaenoic acid (EPA) supplementation may increase the risk of atrial fibrillation.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is entirely focused on caffeine consumption and its effects on performance and sleep, with no mention of omega-3 fatty acids, eicosapentaenoic acid (EPA), or cardiovascular health. Therefore, the claim about high-dose EPA supplementation and the risk of atrial fibrillation is not supported by the content provided."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN5",
+    "claim_id": "PERM-DN5-C8",
+    "claim_text": "The American Heart Association and other health bodies recommend moderate intake of omega-3 fatty acids, typically around 1 gram per day for individuals with coronary heart disease.",
+    "cited_refs": [
+      6
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "6",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss omega-3 fatty acids or their impact on cardiovascular health. Instead, it focuses on creatine supplementation and its effects on exercise performance and various health conditions. There is no mention of recommendations by the American Heart Association or any other health bodies regarding omega-3 fatty acids."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN7",
+    "claim_id": "PERM-DN7-C6",
+    "claim_text": "Regular caffeine consumption can lead to a tolerance that might mitigate some of its negative effects on sleep.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss caffeine consumption, its effects on sleep quality, or cognitive performance. Instead, it focuses on the impact of folic acid fortification on health outcomes. Therefore, the claim about caffeine and its effects on sleep is not supported by the content of this document."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN7",
+    "claim_id": "PERM-DN7-C7",
+    "claim_text": "Regular caffeine consumption can lead to dependence, where the absence of caffeine leads to withdrawal symptoms that can further impact sleep quality.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss caffeine consumption, dependence, withdrawal symptoms, or their impact on sleep quality. Instead, it focuses on folic acid fortification and its effects on health. Therefore, the claim attributed to this content is not supported."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN7",
+    "claim_id": "PERM-DN7-C8",
+    "claim_text": "Caffeine is well-known for its ability to enhance alertness and improve both physical and cognitive performance.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss caffeine, its effects on alertness, or its impact on physical and cognitive performance. Instead, it focuses on folic acid fortification and its health impacts. Therefore, the claim about caffeine enhancing alertness and improving performance is not supported by the content of this document."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN7",
+    "claim_id": "PERM-DN7-C9",
+    "claim_text": "Caffeine's stimulant effect is particularly evident in the reversal of performance deficits caused by sleep deprivation.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss caffeine, its effects on sleep quality, or cognitive performance. Instead, it focuses on folic acid fortification and its health impacts. Therefore, the claim about caffeine's stimulant effect and its impact on performance deficits due to sleep deprivation is not supported by the content of this document."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN7",
+    "claim_id": "PERM-DN7-C10",
+    "claim_text": "Some studies suggest that the cognitive benefits of caffeine might not be direct enhancements but rather a mitigation of withdrawal symptoms in habitual users.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss caffeine consumption, its effects on sleep quality, cognitive performance, or withdrawal symptoms. Instead, it focuses on folic acid fortification and its health impacts. Therefore, the claim attributed to me is not supported by the content of the document."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN7",
+    "claim_id": "PERM-DN7-C11",
+    "claim_text": "The relationship between caffeine, sleep, and cognitive performance is complex.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss caffeine, sleep quality, or cognitive performance. It focuses on folic acid fortification and its health impacts, which is unrelated to the claim about caffeine's relationship with sleep and cognitive performance."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN7",
+    "claim_id": "PERM-DN7-C12",
+    "claim_text": "Caffeine can mitigate the effects of sleep deprivation in the short term.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss caffeine, sleep quality, or cognitive performance. It focuses entirely on folic acid fortification and its effects on health, specifically neural tube defects and other health outcomes. There is no mention of caffeine or its effects on sleep deprivation or cognitive performance."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN7",
+    "claim_id": "PERM-DN7-C13",
+    "claim_text": "Caffeine consumption can be the cause of sleep disturbances that lead to cognitive decline, creating a problematic cycle.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss caffeine consumption, sleep quality, or cognitive performance. Instead, it focuses on the effects of folic acid fortification on health outcomes. Therefore, the claim about caffeine causing sleep disturbances and cognitive decline is not supported by the content of this document."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN8",
+    "claim_id": "PERM-DN8-C4",
+    "claim_text": "High protein intake can exacerbate the progression of chronic kidney disease.",
+    "cited_refs": [
+      1,
+      4
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss high protein intake or its effects on kidney function. It focuses on the relationship between dietary sugar and type 2 diabetes risk. Therefore, the claim about high protein intake exacerbating chronic kidney disease is not supported by the content."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN8",
+    "claim_id": "PERM-DN8-C5",
+    "claim_text": "High dietary protein can lead to increased intraglomerular pressure and hyperfiltration, which may damage the kidney structure and worsen kidney function over time.",
+    "cited_refs": [
+      1,
+      4
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided focuses on the relationship between dietary sugar and type 2 diabetes risk, not on high protein diets or their effects on kidney function. There is no mention of dietary protein, intraglomerular pressure, hyperfiltration, or kidney damage in the text. Therefore, the claim attributed to this content is not supported."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN8",
+    "claim_id": "PERM-DN8-C6",
+    "claim_text": "For patients with chronic kidney disease, dietary guidelines often recommend a low-protein diet to help manage the condition and slow its progression.",
+    "cited_refs": [
+      3,
+      4
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "3",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not discuss dietary guidelines for patients with chronic kidney disease or the effects of high protein diets on kidney function. Instead, it focuses on vitamin B12 deficiency and its neurological effects. Therefore, the claim about low-protein diets for managing chronic kidney disease is not supported by the content provided."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN9",
+    "claim_id": "PERM-DN9-C5",
+    "claim_text": "A systematic review and meta-analysis reported that higher consumption of sugar-sweetened beverages was associated with a greater incidence of type 2 diabetes, by 18% per one serving per day increase, even after adjusting for adiposity.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not contain any information related to sugar consumption, sugar-sweetened beverages, or type 2 diabetes. Instead, it focuses on creatine supplementation and its effects on females. Therefore, the claim about sugar-sweetened beverages and type 2 diabetes is not supported by the content of this document."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN9",
+    "claim_id": "PERM-DN9-C8",
+    "claim_text": "A review discussed direct and indirect pathways through which excess sugar consumption promotes the development of type 2 diabetes and cardiovascular diseases.",
+    "cited_refs": [
+      4
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "4",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss sugar consumption or its direct and indirect pathways in promoting type 2 diabetes and cardiovascular diseases. Instead, it focuses on a study about the effects of magnesium and potassium supplementation on insomnia in diabetic individuals. There is no mention of sugar consumption or its link to type 2 diabetes in the provided text."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN9",
+    "claim_id": "PERM-DN9-C9",
+    "claim_text": "The review highlighted mechanisms such as unregulated hepatic uptake and metabolism of fructose leading to increased risk factors for type 2 diabetes.",
+    "cited_refs": [
+      4
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "4",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss sugar consumption, fructose metabolism, or mechanisms related to type 2 diabetes risk factors. Instead, it focuses on a study about the effects of magnesium and potassium supplementation on insomnia in diabetic patients. Therefore, the claim about unregulated hepatic uptake and metabolism of fructose is not supported by the content of this document."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN9",
+    "claim_id": "PERM-DN9-C13",
+    "claim_text": "A systematic review and dose-response meta-analysis differentiated between types of sugar and found that each additional serving of sugar-sweetened beverage and fruit juice was associated with a higher risk of type 2 diabetes.",
+    "cited_refs": [
+      7
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss sugar consumption, sugar-sweetened beverages, fruit juice, or their association with type 2 diabetes. Instead, it focuses on the effects of high protein intake on renal health. Therefore, the claim about sugar consumption and type 2 diabetes is not supported by the content of this document."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN9",
+    "claim_id": "PERM-DN9-C14",
+    "claim_text": "The systematic review and dose-response meta-analysis found that total sugar and sucrose showed an inverse association with type 2 diabetes risk, suggesting that the form of sugar intake (liquid vs. solid) might influence type 2 diabetes risk.",
+    "cited_refs": [
+      7
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "7",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss sugar consumption or its association with type 2 diabetes. Instead, it focuses on the effects of high protein intake on renal health. Therefore, the claim about sugar and type 2 diabetes is not supported by the content of this document."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN10",
+    "claim_id": "PERM-DN10-C6",
+    "claim_text": "In a systematic review and meta-analysis of randomized controlled trials, the Mediterranean diet was associated with a significant reduction in major adverse cardiovascular events, myocardial infarction, and stroke.",
+    "cited_refs": [
+      4
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "4",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss the Mediterranean diet or its effects on cardiovascular events, myocardial infarction, or stroke. Instead, it focuses on the impact of Western dietary practices on kidney disease. Therefore, the claim attributed to the document is not supported by the content provided."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN10",
+    "claim_id": "PERM-DN10-C7",
+    "claim_text": "The Mediterranean diet significantly reduced the risk of cardiovascular death.",
+    "cited_refs": [
+      4
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "4",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss the Mediterranean diet or its effects on cardiovascular health. Instead, it focuses on the impact of Western dietary practices on kidney disease. Therefore, the claim about the Mediterranean diet reducing the risk of cardiovascular death is not supported by the content given."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN10",
+    "claim_id": "PERM-DN10-C8",
+    "claim_text": "The Mediterranean diet showed no significant effect on all-cause mortality.",
+    "cited_refs": [
+      4
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "4",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss the Mediterranean diet or its effects on all-cause mortality. Instead, it focuses on the impact of Western dietary practices on kidney disease. Therefore, the claim about the Mediterranean diet's effect on all-cause mortality is not supported by the content given."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN10",
+    "claim_id": "PERM-DN10-C9",
+    "claim_text": "Observational studies and long-term randomized controlled trials, like the PREDIMED study, have consistently shown that better adherence to the Mediterranean diet correlates with reduced rates of coronary heart disease, ischemic stroke, and total cardiovascular disease.",
+    "cited_refs": [
+      3
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "3",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided focuses on the impact of sugar-sweetened beverages on health, particularly their link to obesity, type 2 diabetes, cardiovascular diseases, and some cancers. It does not mention the Mediterranean diet or its effects on heart disease prevention. Therefore, the claim about the Mediterranean diet and its benefits on heart disease prevention is not supported by the provided content."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN10",
+    "claim_id": "PERM-DN10-C10",
+    "claim_text": "The Mediterranean diet benefits individuals by improving glycemic control and reducing the incidence of diabetes.",
+    "cited_refs": [
+      6
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "6",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss the Mediterranean diet or its effects on glycemic control or the incidence of diabetes. Instead, it focuses on a study about magnesium and potassium supplementation in diabetic individuals with insomnia. There is no mention of the Mediterranean diet or its benefits in the context of diabetes or heart disease prevention."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN10",
+    "claim_id": "PERM-DN10-C11",
+    "claim_text": "There is a strong link between diabetes and cardiovascular disease.",
+    "cited_refs": [
+      6
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "6",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss the link between diabetes and cardiovascular disease. Instead, it focuses on a study about the effects of magnesium and potassium supplementation on insomnia in diabetic individuals. There is no mention of cardiovascular disease or its connection to diabetes in the text."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN11",
+    "claim_id": "PERM-DN11-C3",
+    "claim_text": "Iron deficiency is common in conditions like inflammatory bowel disease and is associated with significant decreases in quality of life, including symptoms like chronic fatigue.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is entirely focused on the potential carcinogenic effects of aspartame and does not mention iron deficiency, inflammatory bowel disease, or the effects of iron supplementation on energy levels and fatigue. Therefore, the claim attributed to the document is not supported by the content provided."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN11",
+    "claim_id": "PERM-DN11-C4",
+    "claim_text": "Intravenous iron formulations are recommended for treating iron deficiency in inflammatory bowel disease as they are superior to oral forms.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is entirely focused on the carcinogenic potential and mechanisms of aspartame, particularly in relation to liver cancer. There is no mention of iron supplementation, intravenous iron formulations, or their use in treating iron deficiency in inflammatory bowel disease. Therefore, the claim attributed to the document is not supported by the content provided."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN11",
+    "claim_id": "PERM-DN11-C5",
+    "claim_text": "Treating iron deficiency in inflammatory bowel disease is important to improve overall health and energy levels.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is entirely focused on the potential carcinogenic risks of aspartame and its effects on liver cancer. There is no mention of iron supplementation, inflammatory bowel disease, or the impact of treating iron deficiency on health and energy levels. Therefore, the claim attributed to the document is not supported by the content provided."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN11",
+    "claim_id": "PERM-DN11-C8",
+    "claim_text": "Daily iron supplementation in menstruating women significantly reduces the prevalence of anemia and iron deficiency.",
+    "cited_refs": [
+      5
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "5",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss iron supplementation or its effects on anemia and iron deficiency in menstruating women. Instead, it focuses on the role of eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) in cardiovascular health. Therefore, the claim about iron supplementation is not supported by the content given."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN11",
+    "claim_id": "PERM-DN11-C9",
+    "claim_text": "Daily iron supplementation in menstruating women improves exercise performance and reduces symptomatic fatigue.",
+    "cited_refs": [
+      5
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "5",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided discusses the role of eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) in cardiovascular health, not iron supplementation. There is no mention of iron, menstruating women, exercise performance, or fatigue in the provided text. Therefore, the claim about iron supplementation improving exercise performance and reducing fatigue in menstruating women is not supported by the content."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN11",
+    "claim_id": "PERM-DN11-C10",
+    "claim_text": "There is a direct link between iron supplementation and enhanced physical energy and stamina in menstruating women.",
+    "cited_refs": [
+      5
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "5",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss iron supplementation or its effects on energy levels and fatigue. Instead, it focuses on the role of eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA) in cardiovascular health. There is no mention of iron or its supplementation in the context of physical energy and stamina in menstruating women."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN12",
+    "claim_id": "PERM-DN12-C4",
+    "claim_text": "A systematic review assessing the role of magnesium in sleep health found that observational studies suggest a positive association between magnesium status and sleep quality.",
+    "cited_refs": [
+      8
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "8",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss magnesium supplementation or its effects on sleep quality. Instead, it focuses on collagen peptide supplementation and its effects on joint and muscle health. Therefore, the claim about magnesium and sleep quality is not supported by the content of this document."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN12",
+    "claim_id": "PERM-DN12-C5",
+    "claim_text": "Randomized clinical trials have shown mixed results regarding the relationship between magnesium supplementation and sleep disorders.",
+    "cited_refs": [
+      8
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "8",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss magnesium supplementation or its effects on sleep quality. Instead, it focuses on collagen peptide supplementation and its effects on joint and muscle health. Therefore, the claim about magnesium supplementation and sleep disorders is not supported by the provided content."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN12",
+    "claim_id": "PERM-DN12-C6",
+    "claim_text": "A systematic review and meta-analysis focused on older adults reported that magnesium supplementation reduced sleep onset latency by approximately 17.36 minutes compared to placebo.",
+    "cited_refs": [
+      5
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "5",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss magnesium supplementation or its effects on sleep quality. Instead, it focuses on intermittent fasting, periodic fasting, and their health benefits. There is no mention of magnesium, sleep onset latency, or any related sleep studies in the text."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN12",
+    "claim_id": "PERM-DN12-C7",
+    "claim_text": "In older adults, the total sleep time improvement from magnesium supplementation was not statistically significant.",
+    "cited_refs": [
+      5
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "5",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss magnesium supplementation or its effects on sleep quality in older adults. Instead, it focuses on intermittent fasting and its health benefits. Therefore, the claim about magnesium supplementation and sleep is not supported by the content."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN12",
+    "claim_id": "PERM-DN12-C8",
+    "claim_text": "The studies included in the systematic review and meta-analysis on older adults were of moderate-to-high risk of bias.",
+    "cited_refs": [
+      5
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "5",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain any information about magnesium supplementation, sleep quality, or the risk of bias in studies related to these topics. The content is focused on intermittent fasting and its effects on health, which is unrelated to the claim about magnesium supplementation and sleep quality in older adults."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN12",
+    "claim_id": "PERM-DN12-C9",
+    "claim_text": "The evidence from the systematic review and meta-analysis on older adults was rated from low to very low quality.",
+    "cited_refs": [
+      5
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "5",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain any information about magnesium supplementation or its effects on sleep quality. The content is focused on intermittent fasting, periodic fasting, and their effects on health and disease processes. Therefore, the claim about the quality of evidence from a systematic review and meta-analysis on magnesium supplementation for sleep in older adults is not supported by the content provided."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN12",
+    "claim_id": "PERM-DN12-C17",
+    "claim_text": "Magnesium acts as an antagonist of calcium, which is involved in neuromuscular signaling and the regulation of sleep.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss magnesium supplementation, its effects on sleep quality, or its role as an antagonist of calcium in neuromuscular signaling and sleep regulation. The document focuses on the impact of the Mediterranean diet on cardiovascular disease prevention, with no mention of magnesium or its effects on sleep."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN13",
+    "claim_id": "PERM-DN13-C3",
+    "claim_text": "Some reviews suggest that artificial sweeteners can have a favorable impact on body weight and glycemic control, particularly in individuals with type 2 diabetes.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided discusses the effects of intermittent fasting on weight change and metabolic outcomes in diabetic participants, but it does not mention artificial sweeteners or their impact on body weight and glycemic control. Therefore, the claim attributed to the document is not supported by the content provided."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN13",
+    "claim_id": "PERM-DN13-C4",
+    "claim_text": "Artificial sweeteners provide a sweet taste without the calories of sugar, which can be beneficial for weight management and diabetic control.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided discusses the effects of intermittent fasting on weight change and metabolic outcomes in diabetic participants, but it does not mention artificial sweeteners or their benefits for weight management and diabetic control. Therefore, the claim attributed to the document is not supported by the content provided."
+  },
+  {
+    "type": "citation",
+    "question_id": "PERM-DN13",
+    "claim_id": "PERM-DN13-C10",
+    "claim_text": "Reviews have noted concerns regarding artificial sweeteners' potential roles in developing insulin resistance, nonalcoholic fatty liver disease (NAFLD), and gastrointestinal symptoms.",
+    "cited_refs": [
+      2
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "2",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not discuss artificial sweeteners or their potential health effects, such as insulin resistance, NAFLD, or gastrointestinal symptoms. Instead, it focuses on a study comparing weight change and metabolic outcomes in diabetic participants following different intermittent fasting protocols. Therefore, the claim attributed to the document is not supported by the content provided."
+  }
+]

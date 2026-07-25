@@ -10,6 +10,7 @@
 - **Initial implementation built** by Taranum Wasu (project teammate). The implementation is **NOT in this repo** — it lives separately. This repo remains the design/proposal layer.
 - **Validation methodology defined** by the professor: permutation test + arXiv real citations + OpenDeepResearch outputs. Taranum is executing this in parallel.
 - **Latest from Taranum (2026-07-25 21:33):** first round of permutation tests, ODR runs with verified hallucinations, format coverage, and the docs are complete. Taranum is now moving to **prove the result statistically** — the next milestone is significance testing on the permutation test results.
+- **First-round results analyzed (2026-07-26).** Full breakdown in `docs/RESULTS.md`. Headline: the arxiv_permutation test **passes** with a 75.5 pp gap between the SWAPPED and UNSWAPPED subsets (sensitivity 95.5%, specificity 80.0%). The dietnerd_permutation data does not contain an explicit SWAP split — that needs a re-run. The format_test passes cleanly. The ODR experiment found 7/7 manually-verified hallucinations (no false positives in the manual re-check). The aggregate "43.2% / 47.6% hallucination rate" headlines are misleading as written — they conflate the two populations that the permutation test is designed to keep separate.
 - **Integration decision pending** — HVE will be **standalone** for now. The professor will only integrate it into CustomNerd if it measurably reduces CustomNerd's hallucinations.
 
 ## Email thread (summarized)
@@ -97,6 +98,14 @@ Reinforced on 2026-07-24 00:07: *"do the same thing for arxiv papers as you are 
 - **Format coverage:** complete.
 - **Docs:** complete.
 - **Next:** prove the result statistically (compute significance of the perturbed-vs-unperturbed gap).
+
+## Round-1 results — first look (2026-07-26)
+
+Taranum shared 17 files across 4 experiment directories. The data is now in `results/` in this repo. Full analysis in `docs/RESULTS.md`. The three-line summary:
+
+1. **arxiv_permutation: PASS.** 22 SWAPPED claims, 19 flagged `NOT_SUPPORTED` (sensitivity 95.5%, with 2 unverifiable, 0 false approvals). 30 UNSWAPPED claims, 24 `OK` (specificity 80.0%, with 6 unverifiable, 0 false rejections). **75.5 pp gap.**
+2. **dietnerd_permutation: aggregate only.** 50 `NOT_SUPPORTED`, 1 `CONTRADICTED`, 71 `UNVERIFIABLE` out of 176 claims. The raw data does not flag which claims were SWAPPED — the summary's 47.6% number cannot be converted to a permutation-test gap without re-running with an explicit SWAP marker.
+3. **ODR + format test: pass.** 7/7 manually-verified hallucinations in ODR output (no false positives in the re-check). Format test: 7/7 verifiable, 0 hallucinations.
 
 ## Architectural implications still to resolve
 

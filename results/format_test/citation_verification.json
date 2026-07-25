@@ -1,0 +1,107 @@
+[
+  {
+    "question_id": "FORMAT3-Maynez-2020",
+    "claim_id": "FORMAT3-Maynez-2020-C1",
+    "claim_text": "Hallucinations often produce factually incorrect information.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "models are highly prone to hallucinate content that is unfaithful to the input document.",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content explicitly states that models are prone to hallucinate content that is unfaithful to the input document, which implies that hallucinations often produce factually incorrect information. This directly supports the claim."
+  },
+  {
+    "question_id": "FORMAT3-Lewis-2020",
+    "claim_id": "FORMAT3-Lewis-2020-C1",
+    "claim_text": "Recent approaches use retrieval augmentation to ground generation in factual documents.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "For language generation tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline.",
+    "evidence_reference": "1",
+    "evidence_span_start": 1809,
+    "evidence_span_end": 1974,
+    "reasoning": "The document discusses the use of retrieval-augmented generation (RAG) models, which combine retrieval mechanisms with generation tasks to improve the factuality of the generated content. This directly supports the claim that recent approaches use retrieval augmentation to ground generation in factual documents."
+  },
+  {
+    "question_id": "FORMAT5-[1]-1706.03762",
+    "claim_id": "FORMAT5-[1]-1706.03762-C1",
+    "claim_text": "Transformer models have revolutionized natural language processing by using self-attention mechanisms.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+    "evidence_reference": "1",
+    "evidence_span_start": 840,
+    "evidence_span_end": 994,
+    "reasoning": "The content explicitly states that the Transformer model is based solely on attention mechanisms, which aligns with the claim that Transformer models have revolutionized natural language processing by using self-attention mechanisms. The document describes the superiority and efficiency of the Transformer model, supporting the claim of its revolutionary impact."
+  },
+  {
+    "question_id": "FORMAT5-[2]-1810.04805",
+    "claim_id": "FORMAT5-[2]-1810.04805-C1",
+    "claim_text": "Pre-training on large corpora enables transfer learning to downstream tasks.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "During pre-training, the model is trained on unlabeled data over different pre-training tasks. For fine-tuning, the BERT model is first initialized with the pre-trained parameters, and all of the parameters are fine-tuned using labeled data from the downstream tasks.",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content explicitly describes the process of pre-training on large corpora and then fine-tuning on downstream tasks, which is a form of transfer learning. This supports the claim that pre-training enables transfer learning to downstream tasks."
+  },
+  {
+    "question_id": "FORMAT4-Lewis-2020",
+    "claim_id": "FORMAT4-Lewis-2020-C1",
+    "claim_text": "Lewis et al. (2020) introduced retrieval-augmented generation.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "We endow pre-trained, parametric-memory generation models with a non-parametric memory through a general-purpose \ufb01ne-tuning approach which we refer to as retrieval-augmented generation (RAG).",
+    "evidence_reference": "1",
+    "evidence_span_start": 4114,
+    "evidence_span_end": 4305,
+    "reasoning": "The content explicitly states that the authors introduced a fine-tuning approach called retrieval-augmented generation (RAG), which aligns with the claim that Lewis et al. (2020) introduced retrieval-augmented generation."
+  },
+  {
+    "question_id": "FORMAT4-Lewis-2020",
+    "claim_id": "FORMAT4-Lewis-2020-C2",
+    "claim_text": "Retrieval-augmented generation combines parametric memory with non-parametric retrieval.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "We explore a general-purpose \ufb01ne-tuning recipe for retrieval-augmented generation (RAG) \u2014 models which combine pre-trained parametric and non-parametric memory for language generation.",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content explicitly states that retrieval-augmented generation (RAG) models combine pre-trained parametric and non-parametric memory for language generation, which directly supports the claim."
+  },
+  {
+    "question_id": "FORMAT4-Lewis-2020",
+    "claim_id": "FORMAT4-Lewis-2020-C3",
+    "claim_text": "The purpose of combining parametric memory with non-parametric retrieval in retrieval-augmented generation is to reduce hallucinations.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "Our results highlight the bene\ufb01ts of combining parametric and non-parametric memory with genera-\ntion for knowledge-intensive tasks\u2014tasks that humans could not reasonably be expected to perform\nwithout access to an external knowledge source.",
+    "evidence_reference": "1",
+    "evidence_span_start": 5707,
+    "evidence_span_end": 5948,
+    "reasoning": "The document discusses the benefits of combining parametric and non-parametric memory for knowledge-intensive tasks, which implies a reduction in hallucinations by providing access to external knowledge. However, it does not explicitly state that the purpose is to reduce hallucinations, making the claim partially supported."
+  }
+]

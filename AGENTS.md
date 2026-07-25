@@ -17,8 +17,8 @@ If the index looks stale, run `mavis-knowledge refresh`. To see the current stat
 - **Project:** Hallucination Verification Engine (HVE) — research prototype for verifying LLM-generated answers against provided references.
 - **Mentor:** Professor Dennis Shasha (NYU, db shasha @ nyu). Reviews the HLD via email; provides design feedback and the validation protocol.
 - **Teammate:** Taranum Wasu. Owns the implementation (separate repo). Communicates with the professor and Harsh in the same email thread.
-- **Status (2026-07-25):** HLD approved with three design overrides. Implementation built. Permutation test + ODR runs + format coverage + docs all complete (Taranum, 2026-07-25 21:33). **Next: statistical proof** of the permutation test results.
-- **Read `docs/STATUS.md` first** — it captures the post-approval state, the three design decisions that override the V2 architecture, the validation methodology, and the latest progress.
+- **Status (2026-07-26):** HLD approved with three design overrides. Implementation built. First round of permutation test + ODR runs + format coverage + docs complete (Taranum, 2026-07-25 21:33). **Next: statistical proof** of the permutation test results. The arxiv_permutation split (SWAPPED vs UNSWAPPED) is in `results/arxiv_permutation/summary_report.json`; the analysis is in `docs/RESULTS.md`.
+- **Read `docs/STATUS.md` first** for the post-approval state, design overrides, validation methodology. **Read `docs/RESULTS.md` second** for the round-1 results interpretation (permutation test pass/fail per experiment).
 - **The 11-stage pipeline in `reference-architecture.md` is the V2 design.** The teammate's implementation uses a 4-stage merged pipeline (extract+match combined). The V2 docs are still the design-of-record until a V3 is written.
 - **External systems** in the professor's vocabulary = expertise-based systems outside the nerd family (e.g., other LLM literature-review tools, OpenDeepResearch). Used as test cases for HVE.
 

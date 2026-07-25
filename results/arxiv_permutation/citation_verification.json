@@ -1,0 +1,768 @@
+[
+  {
+    "question_id": "ARXIV-Maynez",
+    "claim_id": "ARXIV-Maynez-C1",
+    "claim_text": "Hallucination in text-generation models is a topic that has received attention recently.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ARXIV-Maynez",
+    "claim_id": "ARXIV-Maynez-C2",
+    "claim_text": "Hallucination in text-generation models has received attention particularly in the settings of summarization.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "In this paper we have analyzed limitations of these models for abstractive document summarization and found that these models are highly prone to hallucinate content that is unfaithful to the input document.",
+    "evidence_reference": "1",
+    "evidence_span_start": 425,
+    "evidence_span_end": 632,
+    "reasoning": "The content explicitly discusses the issue of hallucination in the context of abstractive document summarization, which aligns with the claim that hallucination in text-generation models has received attention particularly in the settings of summarization."
+  },
+  {
+    "question_id": "ARXIV-Zellers",
+    "claim_id": "ARXIV-Zellers-C1",
+    "claim_text": "There is a need to defend against neural fake news in the context of news generation.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "developing robust defenses against neural fake news requires us \ufb01rst to carefully investigate and characterize the risks of these models.",
+    "evidence_reference": "1",
+    "evidence_span_start": 820,
+    "evidence_span_end": 957,
+    "reasoning": "The content explicitly discusses the need to develop robust defenses against neural fake news, which aligns with the claim about the necessity to defend against neural fake news in the context of news generation."
+  },
+  {
+    "question_id": "ARXIV-Chen",
+    "claim_id": "ARXIV-Chen-C1",
+    "claim_text": "Open-domain question answering has long considered retrieval as an intermediate step towards its solution.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "In order to answer any question, one must \ufb01rst retrieve the few relevant articles among more than 5 million items, and then scan them carefully to identify the answer.",
+    "evidence_reference": "1",
+    "evidence_span_start": 2138,
+    "evidence_span_end": 2305,
+    "reasoning": "The content discusses the necessity of retrieval as an intermediate step in open-domain question answering, specifically mentioning the need to retrieve relevant articles before identifying answers. This supports the claim that retrieval has long been considered an intermediate step in open-domain question answering."
+  },
+  {
+    "question_id": "ARXIV-Roller",
+    "claim_id": "ARXIV-Roller-C1",
+    "claim_text": "Hallucination has been observed in state-of-the-art dialogue models.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "generative models are known to hallucinate knowledge, and in general are unable to read and access external knowledge other than what is embedded in their model parameters",
+    "evidence_reference": "1",
+    "evidence_span_start": 8799,
+    "evidence_span_end": 8970,
+    "reasoning": "The content explicitly states that generative models are known to hallucinate knowledge, which supports the claim that hallucination has been observed in state-of-the-art dialogue models."
+  },
+  {
+    "question_id": "ARXIV-Dinan",
+    "claim_id": "ARXIV-Dinan-C1",
+    "claim_text": "Utilizing knowledge in the form of unstructured text is preferable.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "our work investigates unstructured knowledge across a large, diverse set of topics potentially spanning all of Wikipedia.",
+    "evidence_reference": "1",
+    "evidence_span_start": 5529,
+    "evidence_span_end": 5650,
+    "reasoning": "The content discusses the use of unstructured knowledge across a wide range of topics, which implies a preference for utilizing unstructured text. However, it does not explicitly state that utilizing unstructured text is 'preferable' over other forms. The claim is partially supported as the document emphasizes the investigation and use of unstructured knowledge, but does not directly compare it to other forms of knowledge."
+  },
+  {
+    "question_id": "ARXIV-Dinan",
+    "claim_id": "ARXIV-Dinan-C2",
+    "claim_text": "Utilizing knowledge in the form of unstructured text allows for a wider range of topics to be discussed.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "our work investigates unstructured knowledge across a large, diverse set of topics potentially spanning all of Wikipedia.",
+    "evidence_reference": "1",
+    "evidence_span_start": 5529,
+    "evidence_span_end": 5650,
+    "reasoning": "The content discusses the use of unstructured knowledge from Wikipedia to enable dialogue on a wide range of topics. This supports the claim that utilizing unstructured text allows for a wider range of topics to be discussed."
+  },
+  {
+    "question_id": "RAGAS-Maynez-2020",
+    "claim_id": "RAGAS-Maynez-2020-C1",
+    "claim_text": "Hallucination is a general problem in language model generations.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "RAGAS-Maynez-2020",
+    "claim_id": "RAGAS-Maynez-2020-C2",
+    "claim_text": "Hallucination appears across many tasks, including summarization.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "we have analyzed limitations of these models for abstractive document summarization and found that these models are highly prone to hallucinate content that is unfaithful to the input document.",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content explicitly states that models for abstractive document summarization are prone to hallucinate content, which directly supports the claim that hallucination appears in summarization tasks."
+  },
+  {
+    "question_id": "RAGAS-Zhang-2023",
+    "claim_id": "RAGAS-Zhang-2023-C1",
+    "claim_text": "The issue has not been resolved by simply scaling up training data.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "However, these models often tend to \u2018hallucinate\u2019 which critically hampers their reliability.",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content discusses the issue of hallucinations in large language models and proposes a method to detect and mitigate them. While it does not explicitly state that scaling up training data does not resolve the issue, it implies that hallucinations remain a problem despite advancements in model capabilities, which could include scaling. Thus, the claim is partially supported as the content addresses the persistence of hallucinations, suggesting that scaling alone is insufficient."
+  },
+  {
+    "question_id": "RAGAS-Zhang-2023",
+    "claim_id": "RAGAS-Zhang-2023-C2",
+    "claim_text": "The issue has not been resolved by simply scaling up model size.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain enough information to verify the claim about scaling up model size not resolving the issue. The text focuses on detecting and mitigating hallucinations in language models but does not specifically address the impact of scaling model size on this issue. Therefore, it is not possible to determine if the claim is supported or not based on the given content."
+  },
+  {
+    "question_id": "RAGAS-Zhao-2023",
+    "claim_id": "RAGAS-Zhao-2023-C1",
+    "claim_text": "The synopsis mentions chain-of-thought verification.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "In this paper, we propose the Verify-and-Edit framework for CoT prompting, which seeks to increase prediction factuality by post-editing reasoning chains according to external knowledge.",
+    "evidence_reference": "1",
+    "evidence_span_start": 885,
+    "evidence_span_end": 1071,
+    "reasoning": "The content explicitly mentions a 'Verify-and-Edit' framework for Chain-of-Thought (CoT) prompting, which involves verifying and editing reasoning chains to improve factuality. This aligns with the claim about chain-of-thought verification."
+  },
+  {
+    "question_id": "RAGAS-Wei-2022",
+    "claim_id": "RAGAS-Wei-2022-C1",
+    "claim_text": "Several approaches have been shown to improve results with extended reasoning steps by the system.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "RAGAS-Wei-2022",
+    "claim_id": "RAGAS-Wei-2022-C2",
+    "claim_text": "Chain-of-thought is one of the approaches that has been shown to improve results with extended reasoning steps by the system.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks.",
+    "evidence_reference": "1",
+    "evidence_span_start": 309,
+    "evidence_span_end": 444,
+    "reasoning": "The content explicitly states that chain-of-thought prompting, when combined with large language models, has achieved encouraging results on complex reasoning tasks. This supports the claim that chain-of-thought improves results with extended reasoning steps."
+  },
+  {
+    "question_id": "ARXIV-Maynez-SWAPPED",
+    "claim_id": "ARXIV-Maynez-SWAPPED-C1",
+    "claim_text": "Hallucination in text-generation models is a topic that has received attention recently.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "ARXIV-Maynez-SWAPPED",
+    "claim_id": "ARXIV-Maynez-SWAPPED-C2",
+    "claim_text": "Hallucination in text-generation models has received attention particularly in the settings of summarization.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain any information related to hallucination in text-generation models or its attention in the settings of summarization. The text appears to discuss in-context learning (ICL) capabilities and factors affecting its performance, which is unrelated to the claim about hallucination in summarization."
+  },
+  {
+    "question_id": "ARXIV-Zellers-SWAPPED",
+    "claim_id": "ARXIV-Zellers-SWAPPED-C1",
+    "claim_text": "There is a need to defend against neural fake news in the context of news generation.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided is about scaling Vision Transformers and does not mention or discuss the need to defend against neural fake news in the context of news generation. The claim attributed to the document is unrelated to the content provided."
+  },
+  {
+    "question_id": "ARXIV-Chen-SWAPPED",
+    "claim_id": "ARXIV-Chen-SWAPPED-C1",
+    "claim_text": "Open-domain question answering has long considered retrieval as an intermediate step towards its solution.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content from the GPT-4 Technical Report does not discuss open-domain question answering or the use of retrieval as an intermediate step in such systems. The claim attributed to the document is not supported by the content, as it focuses on the capabilities and evaluations of GPT-4, without mentioning retrieval in the context of open-domain question answering."
+  },
+  {
+    "question_id": "ARXIV-Roller-SWAPPED",
+    "claim_id": "ARXIV-Roller-SWAPPED-C1",
+    "claim_text": "Hallucination has been observed in state-of-the-art dialogue models.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not discuss hallucination in dialogue models or any related phenomena. It focuses on a new framework for language model inference called 'Tree of Thoughts' and its application to problem-solving tasks. There is no mention of hallucination or dialogue models in the text."
+  },
+  {
+    "question_id": "ARXIV-Dinan-SWAPPED",
+    "claim_id": "ARXIV-Dinan-SWAPPED-C1",
+    "claim_text": "Utilizing knowledge in the form of unstructured text is preferable.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not discuss the preference for utilizing knowledge in the form of unstructured text. The content focuses on evaluating large language models and their alignment with human preferences, not on the form of knowledge (structured vs. unstructured) used in conversational agents."
+  },
+  {
+    "question_id": "ARXIV-Dinan-SWAPPED",
+    "claim_id": "ARXIV-Dinan-SWAPPED-C2",
+    "claim_text": "Utilizing knowledge in the form of unstructured text allows for a wider range of topics to be discussed.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain any information related to the claim about utilizing knowledge in the form of unstructured text allowing for a wider range of topics to be discussed. The content appears to be about a conversational agent evaluation platform and does not address the use of unstructured text for expanding topic range in conversations."
+  },
+  {
+    "question_id": "FACTUALITY-Guu-2020",
+    "claim_id": "FACTUALITY-Guu-2020-C1",
+    "claim_text": "A retrieval-augmentation step is used in the area of language modeling for pre-training.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "we augment language model pre-training with a latent knowledge retriever, which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, \ufb01ne-tuning and inference.",
+    "evidence_reference": "1",
+    "evidence_span_start": 533,
+    "evidence_span_end": 758,
+    "reasoning": "The content explicitly describes the use of a retrieval-augmentation step in language model pre-training, which aligns with the claim. The REALM model incorporates a retrieval mechanism during pre-training, supporting the claim that retrieval-augmentation is used in this context."
+  },
+  {
+    "question_id": "FACTUALITY-Guu-2020-SWAPPED",
+    "claim_id": "FACTUALITY-Guu-2020-SWAPPED-C1",
+    "claim_text": "A retrieval-augmentation step is used in the area of language modeling for pre-training.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not contain any information about a retrieval-augmentation step being used in the area of language modeling for pre-training. The content snippet mentions 'REALM: Retrieval-Augmented Language Model Pre-Training' but does not provide any details or discussion on this topic. Therefore, the claim is not supported by the given content."
+  },
+  {
+    "question_id": "SELFINSTRUCT-Liu-2021",
+    "claim_id": "SELFINSTRUCT-Liu-2021-C1",
+    "claim_text": "Prompt-learning intuitively connects pre-training and model tuning by mimicking the process of pre-training.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "By mimicking the process of pre-training, prompt-learning intuitively bridges the gap between pre-training and model tuning.",
+    "evidence_reference": "1",
+    "evidence_span_start": 8576,
+    "evidence_span_end": 8700,
+    "reasoning": "The content explicitly states that prompt-learning mimics the process of pre-training and intuitively bridges the gap between pre-training and model tuning, which directly supports the claim."
+  },
+  {
+    "question_id": "SELFINSTRUCT-Liu-2021-SWAPPED",
+    "claim_id": "SELFINSTRUCT-Liu-2021-SWAPPED-C1",
+    "claim_text": "Prompt-learning intuitively connects pre-training and model tuning by mimicking the process of pre-training.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not discuss the concept of prompt-learning connecting pre-training and model tuning by mimicking the process of pre-training. The text primarily discusses in-context learning (ICL) and its relation to prompt learning, but it does not mention or imply that prompt-learning mimics pre-training. Therefore, the claim is not supported by the content provided."
+  },
+  {
+    "question_id": "FACTSCORE-[44]-2206.09557",
+    "claim_id": "FACTSCORE-[44]-2206.09557-C1",
+    "claim_text": "Some researchers use more sophisticated grouping methods.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "Furthermore, we proposed group-wise quantization to offer a flexible trade-off between compression ratio and accuracy.",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content discusses the use of group-wise quantization, which can be considered a more sophisticated grouping method. However, the claim is general about 'some researchers' using sophisticated methods, while the content specifically describes the authors' approach. Thus, the claim is partially supported as it aligns with the idea of using advanced grouping methods but does not directly state that other researchers are doing so."
+  },
+  {
+    "question_id": "FACTSCORE-[18]-2210.17323",
+    "claim_id": "FACTSCORE-[18]-2210.17323-C1",
+    "claim_text": "Rounding decisions can be optimized to improve quantization precision.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "The AdaRound method (Nagel et al., 2020) computes a data-dependent rounding by annealing a penalty term, which encourages weights to move towards grid points corresponding to quantization levels.",
+    "evidence_reference": "1",
+    "evidence_span_start": 8408,
+    "evidence_span_end": 8603,
+    "reasoning": "The content discusses methods like AdaRound that optimize rounding decisions to improve quantization precision by using data-dependent rounding techniques. This supports the claim that rounding decisions can be optimized to improve quantization precision."
+  },
+  {
+    "question_id": "FACTSCORE-[65]-2304.13013",
+    "claim_id": "FACTSCORE-[65]-2304.13013-C1",
+    "claim_text": "SwitchBack layers exist.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "Towards fast training, we introduce SwitchBack, a linear layer for quantized training with int8 precision",
+    "evidence_reference": "1",
+    "evidence_span_start": 2425,
+    "evidence_span_end": 2530,
+    "reasoning": "The content explicitly mentions the introduction of SwitchBack as a linear layer for quantized training, confirming the existence of SwitchBack layers."
+  },
+  {
+    "question_id": "FACTSCORE-[28]-2106.09685",
+    "claim_id": "FACTSCORE-[28]-2106.09685-C1",
+    "claim_text": "Finetuning is performed with Adapters.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "FACTSCORE-[28]-2106.09685",
+    "claim_id": "FACTSCORE-[28]-2106.09685-C2",
+    "claim_text": "Low-rank Adapters are used in the finetuning process.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks.",
+    "evidence_reference": "1",
+    "evidence_span_start": 711,
+    "evidence_span_end": 968,
+    "reasoning": "The content explicitly states that Low-Rank Adapters (LoRA) are used in the fine-tuning process by injecting trainable rank decomposition matrices into each layer of the Transformer architecture. This supports the claim that Low-rank Adapters are used in the finetuning process."
+  },
+  {
+    "question_id": "FACTSCORE-[48]-2104.06599",
+    "claim_id": "FACTSCORE-[48]-2104.06599-C1",
+    "claim_text": "Many other Parameter Efficient FineTuning (PEFT) methods have been proposed.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "FACTSCORE-[48]-2104.06599",
+    "claim_id": "FACTSCORE-[48]-2104.06599-C2",
+    "claim_text": "Prompt tuning is one of the Parameter Efficient FineTuning (PEFT) methods that have been proposed.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "Li and Liang (2021) considered the setting of generating text from a pretrained language model (GPT-2 or BART) conditioned on a textual prompt. To improve the results, they prepended a few task-specific \u201csoft tokens\u201d to the prompt and tuned the embeddings of only these tokens (at all embedding layers).",
+    "evidence_reference": "1",
+    "evidence_span_start": 5870,
+    "evidence_span_end": 6173,
+    "reasoning": "The content discusses prompt tuning as a method where only specific parts of the model (the embeddings of soft tokens) are tuned, which aligns with the concept of Parameter Efficient Fine-Tuning (PEFT). However, the term 'PEFT' is not explicitly used in the content. The claim is partially supported as the described method fits the general idea of PEFT, but the specific terminology is not present."
+  },
+  {
+    "question_id": "FACTSCORE-[44]-2206.09557-SWAPPED",
+    "claim_id": "FACTSCORE-[44]-2206.09557-SWAPPED-C1",
+    "claim_text": "Some studies use more sophisticated grouping methods.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "we survey demonstration organization strategies and classify them into three categories, as shown in Table 1.",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content discusses various methods for demonstration organization, including selection, formatting, and ordering, which can be considered as 'grouping methods'. However, it does not explicitly state that these methods are 'more sophisticated'. The claim is partially supported as the document does cover different strategies for organizing demonstrations, which could imply sophistication, but it does not explicitly use the term 'sophisticated'."
+  },
+  {
+    "question_id": "FACTSCORE-[18]-2210.17323-SWAPPED",
+    "claim_id": "FACTSCORE-[18]-2210.17323-SWAPPED-C1",
+    "claim_text": "The study discusses how to optimize rounding decisions to improve quantization precision.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not discuss optimizing rounding decisions to improve quantization precision. The text focuses on scaling Vision Transformers to 22 billion parameters and the benefits of such scaling, but it does not mention quantization or rounding decisions. Therefore, the claim is not supported by the content provided."
+  },
+  {
+    "question_id": "FACTSCORE-[65]-2304.13013-SWAPPED",
+    "claim_id": "FACTSCORE-[65]-2304.13013-SWAPPED-C1",
+    "claim_text": "SwitchBack layers exist.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content from the GPT-4 Technical Report does not mention 'SwitchBack layers' at all. The claim about the existence of SwitchBack layers is not supported by the text, as there is no reference or discussion of such layers in the document."
+  },
+  {
+    "question_id": "FACTSCORE-[28]-2106.09685-SWAPPED",
+    "claim_id": "FACTSCORE-[28]-2106.09685-SWAPPED-C1",
+    "claim_text": "The process of finetuning is conducted using Low-rank Adapters.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not mention anything about the process of finetuning using Low-rank Adapters. The content focuses on the 'Tree of Thoughts' framework for language model inference and its application to problem-solving tasks. There is no discussion of finetuning methods or Low-rank Adapters in the text provided."
+  },
+  {
+    "question_id": "FACTSCORE-[48]-2104.06599-SWAPPED",
+    "claim_id": "FACTSCORE-[48]-2104.06599-SWAPPED-C1",
+    "claim_text": "Many other Parameter Efficient FineTuning (PEFT) methods have been proposed.",
+    "cited_refs": [],
+    "verdict": "UNVERIFIABLE",
+    "confidence": 0.5,
+    "evidence_quote": "",
+    "evidence_reference": "",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "No citation provided for this claim"
+  },
+  {
+    "question_id": "FACTSCORE-[48]-2104.06599-SWAPPED",
+    "claim_id": "FACTSCORE-[48]-2104.06599-SWAPPED-C2",
+    "claim_text": "Prompt tuning is one of the Parameter Efficient FineTuning (PEFT) methods that have been proposed.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not mention 'prompt tuning' or 'Parameter Efficient FineTuning (PEFT) methods'. The text seems to discuss different methods of grading and querying language models, but it does not address prompt tuning or PEFT methods. Therefore, the claim is not supported by the given content."
+  },
+  {
+    "question_id": "FORMAT3-Maynez-2020",
+    "claim_id": "FORMAT3-Maynez-2020-C1",
+    "claim_text": "Hallucinations produced by certain entities are often factually incorrect.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "summaries often forge entities (e.g., \u201cNigel Goldsmith\u201d or \u201cZac Goldwin\u201d) or information (e.g., \u201cUKIP leader Nigel Goldsmith\u201d, \u201cNigel Goldsmith winning the mayoral election\u201d, \u201cSadiq Khan being the former London mayor\u201d or \u201cZac Goldwin being the Labour\u2019s candidate\u201d) that are not supported by the document or are factually wrong.",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content explicitly discusses how summaries can forge entities or information that are factually incorrect, which aligns with the claim that hallucinations produced by certain entities are often factually incorrect."
+  },
+  {
+    "question_id": "FORMAT3-Maynez-2020-SWAPPED",
+    "claim_id": "FORMAT3-Maynez-2020-SWAPPED-C1",
+    "claim_text": "Hallucinations often produce factually incorrect information.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not discuss hallucinations or the production of factually incorrect information by language models. The focus is on in-context learning and its applications, challenges, and techniques. There is no mention of hallucinations or factual inaccuracies in the text."
+  },
+  {
+    "question_id": "FORMAT3-Lewis-2020",
+    "claim_id": "FORMAT3-Lewis-2020-C1",
+    "claim_text": "Recent approaches use retrieval augmentation to ground generation in factual documents.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "For language generation tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline.",
+    "evidence_reference": "1",
+    "evidence_span_start": 1809,
+    "evidence_span_end": 1974,
+    "reasoning": "The document discusses the use of retrieval-augmented generation (RAG) models, which combine retrieval of factual documents with generation tasks. This directly supports the claim that recent approaches use retrieval augmentation to ground generation in factual documents."
+  },
+  {
+    "question_id": "FORMAT3-Lewis-2020-SWAPPED",
+    "claim_id": "FORMAT3-Lewis-2020-SWAPPED-C1",
+    "claim_text": "Recent approaches use retrieval augmentation to ground generation in factual documents.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not mention retrieval augmentation or grounding generation in factual documents. It focuses on scaling Vision Transformers and their performance on vision tasks, which is unrelated to the claim about retrieval-augmented generation in NLP tasks."
+  },
+  {
+    "question_id": "FORMAT5-[1]-1706.03762",
+    "claim_id": "FORMAT5-[1]-1706.03762-C1",
+    "claim_text": "Transformer models have revolutionized natural language processing by using self-attention mechanisms.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.",
+    "evidence_reference": "1",
+    "evidence_span_start": 840,
+    "evidence_span_end": 994,
+    "reasoning": "The content explicitly states that the Transformer model is based solely on attention mechanisms, which aligns with the claim that Transformer models have revolutionized natural language processing by using self-attention mechanisms. The document discusses the superiority and efficiency of the Transformer model, supporting the claim of its revolutionary impact."
+  },
+  {
+    "question_id": "FORMAT5-[1]-1706.03762-SWAPPED",
+    "claim_id": "FORMAT5-[1]-1706.03762-SWAPPED-C1",
+    "claim_text": "Transformer models have revolutionized natural language processing by using self-attention mechanisms.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not mention transformer models or self-attention mechanisms. It focuses on GPT-4's capabilities, performance, and limitations, but does not discuss the underlying architecture or mechanisms such as self-attention that are used in transformer models. Therefore, the claim about transformer models revolutionizing NLP with self-attention mechanisms is not supported by the content provided."
+  },
+  {
+    "question_id": "FORMAT5-[2]-1810.04805",
+    "claim_id": "FORMAT5-[2]-1810.04805-C1",
+    "claim_text": "Pre-training on large corpora enables transfer learning to downstream tasks.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "During pre-training, the model is trained on unlabeled data over different pre-training tasks. For fine-tuning, the BERT model is first initialized with the pre-trained parameters, and all of the parameters are fine-tuned using labeled data from the downstream tasks.",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content explicitly describes the process of pre-training on large corpora and then fine-tuning on downstream tasks, which is a form of transfer learning. This supports the claim that pre-training enables transfer learning to downstream tasks."
+  },
+  {
+    "question_id": "FORMAT5-[2]-1810.04805-SWAPPED",
+    "claim_id": "FORMAT5-[2]-1810.04805-SWAPPED-C1",
+    "claim_text": "Pre-training on large corpora enables transfer learning to downstream tasks.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not discuss pre-training on large corpora or its impact on transfer learning to downstream tasks. The content focuses on a new framework for language model inference called 'Tree of Thoughts' and its application to problem-solving tasks. There is no mention of pre-training or transfer learning in the excerpt provided."
+  },
+  {
+    "question_id": "FORMAT4-Lewis-2020",
+    "claim_id": "FORMAT4-Lewis-2020-C1",
+    "claim_text": "Lewis et al. (2020) introduced retrieval-augmented generation.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "We endow pre-trained, parametric-memory generation models with a non-parametric memory through a general-purpose \ufb01ne-tuning approach which we refer to as retrieval-augmented generation (RAG).",
+    "evidence_reference": "1",
+    "evidence_span_start": 4114,
+    "evidence_span_end": 4305,
+    "reasoning": "The document explicitly states that the authors introduced a fine-tuning approach called retrieval-augmented generation (RAG), which aligns with the claim that Lewis et al. (2020) introduced retrieval-augmented generation."
+  },
+  {
+    "question_id": "FORMAT4-Lewis-2020",
+    "claim_id": "FORMAT4-Lewis-2020-C2",
+    "claim_text": "Retrieval-augmented generation combines parametric memory with non-parametric retrieval.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "We explore a general-purpose \ufb01ne-tuning recipe for retrieval-augmented generation (RAG) \u2014 models which combine pre-trained parametric and non-parametric memory for language generation.",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content explicitly states that retrieval-augmented generation (RAG) models combine pre-trained parametric and non-parametric memory for language generation, which directly supports the claim."
+  },
+  {
+    "question_id": "FORMAT4-Lewis-2020",
+    "claim_id": "FORMAT4-Lewis-2020-C3",
+    "claim_text": "The purpose of combining parametric memory with non-parametric retrieval in retrieval-augmented generation is to reduce hallucinations.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "PARTIALLY_SUPPORTED",
+    "confidence": 0.8,
+    "evidence_quote": "Our results highlight the bene\ufb01ts of combining parametric and non-parametric memory with genera- tion for knowledge-intensive tasks\u2014tasks that humans could not reasonably be expected to perform without access to an external knowledge source.",
+    "evidence_reference": "1",
+    "evidence_span_start": 5707,
+    "evidence_span_end": 5948,
+    "reasoning": "The document discusses the benefits of combining parametric and non-parametric memory for knowledge-intensive tasks, which implies a reduction in hallucinations by providing access to external knowledge sources. However, it does not explicitly state that the purpose is to reduce hallucinations, so the claim is partially supported."
+  },
+  {
+    "question_id": "FORMAT4-Lewis-2020-SWAPPED",
+    "claim_id": "FORMAT4-Lewis-2020-SWAPPED-C1",
+    "claim_text": "Lewis et al. (2020) introduced retrieval-augmented generation.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The content provided does not mention Lewis et al. (2020) or the concept of retrieval-augmented generation. The document focuses on evaluating large language models as judges for chat assistants, discussing benchmarks like MT-bench and Chatbot Arena. There is no reference to the introduction of retrieval-augmented generation or any related work by Lewis et al. (2020)."
+  },
+  {
+    "question_id": "FORMAT4-Lewis-2020-SWAPPED",
+    "claim_id": "FORMAT4-Lewis-2020-SWAPPED-C2",
+    "claim_text": "Retrieval-augmented generation combines parametric memory with non-parametric retrieval.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 0.9,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not discuss retrieval-augmented generation or the combination of parametric memory with non-parametric retrieval. The focus of the content is on evaluating large language models as judges for chat assistants, not on retrieval-augmented generation techniques."
+  },
+  {
+    "question_id": "FORMAT4-Lewis-2020-SWAPPED",
+    "claim_id": "FORMAT4-Lewis-2020-SWAPPED-C3",
+    "claim_text": "The purpose of combining parametric memory with non-parametric retrieval in retrieval-augmented generation is to reduce hallucinations.",
+    "cited_refs": [
+      1
+    ],
+    "verdict": "NOT_SUPPORTED",
+    "confidence": 1.0,
+    "evidence_quote": "",
+    "evidence_reference": "1",
+    "evidence_span_start": -1,
+    "evidence_span_end": -1,
+    "reasoning": "The provided content does not discuss the combination of parametric memory with non-parametric retrieval in retrieval-augmented generation, nor does it mention reducing hallucinations. The content focuses on evaluating large language models using LLM-as-a-judge and does not address retrieval-augmented generation or its purposes."
+  }
+]
